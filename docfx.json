@@ -1,0 +1,52 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../RageCoop-V",
+          "files": [ "*.sln", "**/*.csproj" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ],
+        }
+      ],
+      "dest": "obj/api"
+    },
+    {
+      "src": [
+        {
+          "src": "../scripthookvdotnet",
+          "files": [ "source/scripting_v3/ScriptHookVDotNet3.csproj" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ]
+        }
+      ],
+      "dest": "obj/shvdn"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [ "**/*.yml" ],
+        "src": "obj/api",
+        "dest": "API"
+      },
+	  {
+        "files": [ "**/*.yml" ],
+        "src": "obj/shvdn",
+        "dest": "SHVDN"
+      },
+      {
+		"src":"../RageCoop-V" ,
+        "files": [ "readme.md"]
+      },
+	  {
+        "files": [ "index.md","toc.yml"]
+      }
+    ],
+    "globalMetadata": {
+      "_appTitle": "RageCoop resource documentation",
+      "_enableSearch": true
+    },
+    "markdownEngineName": "markdig",
+    "dest": "./",
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ]
+  }
+}

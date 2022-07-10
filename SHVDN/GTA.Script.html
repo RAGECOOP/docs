@@ -1,0 +1,793 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Script
+   | RageCoop resource documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Script
+   | RageCoop resource documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.Script">
+  
+  
+  <h1 id="GTA_Script" data-uid="GTA.Script" class="text-break">Class Script
+  </h1>
+  <div class="markdown level0 summary"><p>A base class for all user scripts to inherit.
+Only scripts that inherit directly from this class and have a default (parameterless) public constructor will be detected and started.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Script</span></div>
+      <div class="level2"><a class="xref" href="../API/RageCoop.Client.WorldThread.html">WorldThread</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.html">GTA</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_Script_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class Script</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script__ctor.md&amp;value=---%0Auid%3A%20GTA.Script.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L33">View Source</a>
+  </span>
+  <a id="GTA_Script__ctor_" data-uid="GTA.Script.#ctor*"></a>
+  <h4 id="GTA_Script__ctor" data-uid="GTA.Script.#ctor">Script()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Script()</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_BaseDirectory.md&amp;value=---%0Auid%3A%20GTA.Script.BaseDirectory%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L151">View Source</a>
+  </span>
+  <a id="GTA_Script_BaseDirectory_" data-uid="GTA.Script.BaseDirectory*"></a>
+  <h4 id="GTA_Script_BaseDirectory" data-uid="GTA.Script.BaseDirectory">BaseDirectory</h4>
+  <div class="markdown level1 summary"><p>Gets the Directory where this <a class="xref" href="GTA.Script.html">Script</a> is stored.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string BaseDirectory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Filename.md&amp;value=---%0Auid%3A%20GTA.Script.Filename%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L143">View Source</a>
+  </span>
+  <a id="GTA_Script_Filename_" data-uid="GTA.Script.Filename*"></a>
+  <h4 id="GTA_Script_Filename" data-uid="GTA.Script.Filename">Filename</h4>
+  <div class="markdown level1 summary"><p>Gets the filename of this <a class="xref" href="GTA.Script.html">Script</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Filename { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Interval.md&amp;value=---%0Auid%3A%20GTA.Script.Interval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L210">View Source</a>
+  </span>
+  <a id="GTA_Script_Interval_" data-uid="GTA.Script.Interval*"></a>
+  <h4 id="GTA_Script_Interval" data-uid="GTA.Script.Interval">Interval</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the interval in ms between <a class="xref" href="GTA.Script.html#GTA_Script_Tick">Tick</a> for this <a class="xref" href="GTA.Script.html">Script</a>.
+Default value is 0 meaning the event will execute once each frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected int Interval { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_IsExecuting.md&amp;value=---%0Auid%3A%20GTA.Script.IsExecuting%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L178">View Source</a>
+  </span>
+  <a id="GTA_Script_IsExecuting_" data-uid="GTA.Script.IsExecuting*"></a>
+  <h4 id="GTA_Script_IsExecuting" data-uid="GTA.Script.IsExecuting">IsExecuting</h4>
+  <div class="markdown level1 summary"><p>Checks if this <a class="xref" href="GTA.Script.html">Script</a> is executing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsExecuting { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_IsPaused.md&amp;value=---%0Auid%3A%20GTA.Script.IsPaused%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L156">View Source</a>
+  </span>
+  <a id="GTA_Script_IsPaused_" data-uid="GTA.Script.IsPaused*"></a>
+  <h4 id="GTA_Script_IsPaused" data-uid="GTA.Script.IsPaused">IsPaused</h4>
+  <div class="markdown level1 summary"><p>Checks if this <a class="xref" href="GTA.Script.html">Script</a> is paused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPaused { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_IsRunning.md&amp;value=---%0Auid%3A%20GTA.Script.IsRunning%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L167">View Source</a>
+  </span>
+  <a id="GTA_Script_IsRunning_" data-uid="GTA.Script.IsRunning*"></a>
+  <h4 id="GTA_Script_IsRunning" data-uid="GTA.Script.IsRunning">IsRunning</h4>
+  <div class="markdown level1 summary"><p>Checks if this <a class="xref" href="GTA.Script.html">Script</a> is running.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRunning { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Name.md&amp;value=---%0Auid%3A%20GTA.Script.Name%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L136">View Source</a>
+  </span>
+  <a id="GTA_Script_Name_" data-uid="GTA.Script.Name*"></a>
+  <h4 id="GTA_Script_Name" data-uid="GTA.Script.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets the name of this <a class="xref" href="GTA.Script.html">Script</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Settings.md&amp;value=---%0Auid%3A%20GTA.Script.Settings%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L191">View Source</a>
+  </span>
+  <a id="GTA_Script_Settings_" data-uid="GTA.Script.Settings*"></a>
+  <h4 id="GTA_Script_Settings" data-uid="GTA.Script.Settings">Settings</h4>
+  <div class="markdown level1 summary"><p>Gets an INI file associated with this <a class="xref" href="GTA.Script.html">Script</a>.
+The File will be in the same location as this <a class="xref" href="GTA.Script.html">Script</a> but with an extension of &quot;.ini&quot;.
+Use this to save and load settings for this <a class="xref" href="GTA.Script.html">Script</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScriptSettings Settings { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.ScriptSettings.html">ScriptSettings</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Abort.md&amp;value=---%0Auid%3A%20GTA.Script.Abort%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L252">View Source</a>
+  </span>
+  <a id="GTA_Script_Abort_" data-uid="GTA.Script.Abort*"></a>
+  <h4 id="GTA_Script_Abort" data-uid="GTA.Script.Abort">Abort()</h4>
+  <div class="markdown level1 summary"><p>Aborts execution of this <a class="xref" href="GTA.Script.html">Script</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Abort()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_GetRelativeFilePath_System_String_.md&amp;value=---%0Auid%3A%20GTA.Script.GetRelativeFilePath(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L244">View Source</a>
+  </span>
+  <a id="GTA_Script_GetRelativeFilePath_" data-uid="GTA.Script.GetRelativeFilePath*"></a>
+  <h4 id="GTA_Script_GetRelativeFilePath_System_String_" data-uid="GTA.Script.GetRelativeFilePath(System.String)">GetRelativeFilePath(String)</h4>
+  <div class="markdown level1 summary"><p>Gets the full file path for a file relative to this <a class="xref" href="GTA.Script.html">Script</a>.
+e.g: <code>GetRelativeFilePath(&quot;ScriptFiles\texture1.png&quot;)</code> may return <code>&quot;C:\Program Files\Rockstar Games\Grand Theft Auto V\scripts\ScriptFiles\texture1.png&quot;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GetRelativeFilePath(string filePath)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">filePath</span></td>
+        <td><p>The file path relative to the location of this <a class="xref" href="GTA.Script.html">Script</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_InstantiateScript__1.md&amp;value=---%0Auid%3A%20GTA.Script.InstantiateScript%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L299">View Source</a>
+  </span>
+  <a id="GTA_Script_InstantiateScript_" data-uid="GTA.Script.InstantiateScript*"></a>
+  <h4 id="GTA_Script_InstantiateScript__1" data-uid="GTA.Script.InstantiateScript``1">InstantiateScript&lt;T&gt;()</h4>
+  <div class="markdown level1 summary"><p>Spawns a new <a class="xref" href="GTA.Script.html">Script</a> instance of the specified type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T InstantiateScript&lt;T&gt;()
+
+    where T : Script</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Pause.md&amp;value=---%0Auid%3A%20GTA.Script.Pause%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L260">View Source</a>
+  </span>
+  <a id="GTA_Script_Pause_" data-uid="GTA.Script.Pause*"></a>
+  <h4 id="GTA_Script_Pause" data-uid="GTA.Script.Pause">Pause()</h4>
+  <div class="markdown level1 summary"><p>Pause execution of this <a class="xref" href="GTA.Script.html">Script</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Pause()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Resume.md&amp;value=---%0Auid%3A%20GTA.Script.Resume%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L268">View Source</a>
+  </span>
+  <a id="GTA_Script_Resume_" data-uid="GTA.Script.Resume*"></a>
+  <h4 id="GTA_Script_Resume" data-uid="GTA.Script.Resume">Resume()</h4>
+  <div class="markdown level1 summary"><p>Starts execution of this <a class="xref" href="GTA.Script.html">Script</a> after it has been Paused.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Resume()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_ToString.md&amp;value=---%0Auid%3A%20GTA.Script.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L234">View Source</a>
+  </span>
+  <a id="GTA_Script_ToString_" data-uid="GTA.Script.ToString*"></a>
+  <h4 id="GTA_Script_ToString" data-uid="GTA.Script.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a string that represents this <a class="xref" href="GTA.Script.html">Script</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Wait_System_Int32_.md&amp;value=---%0Auid%3A%20GTA.Script.Wait(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L278">View Source</a>
+  </span>
+  <a id="GTA_Script_Wait_" data-uid="GTA.Script.Wait*"></a>
+  <h4 id="GTA_Script_Wait_System_Int32_" data-uid="GTA.Script.Wait(System.Int32)">Wait(Int32)</h4>
+  <div class="markdown level1 summary"><p>Pauses execution of the <a class="xref" href="GTA.Script.html">Script</a> for a specific amount of time.
+Must be called inside the main script loop (the <a class="xref" href="GTA.Script.html#GTA_Script_Tick">Tick</a> event or any sub methods called from it).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Wait(int ms)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">ms</span></td>
+        <td><p>The time in milliseconds to pause for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Yield.md&amp;value=---%0Auid%3A%20GTA.Script.Yield%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L291">View Source</a>
+  </span>
+  <a id="GTA_Script_Yield_" data-uid="GTA.Script.Yield*"></a>
+  <h4 id="GTA_Script_Yield" data-uid="GTA.Script.Yield">Yield()</h4>
+  <div class="markdown level1 summary"><p>Yields the execution of the script for 1 frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Yield()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Aborted.md&amp;value=---%0Auid%3A%20GTA.Script.Aborted%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L66">View Source</a>
+  </span>
+  <h4 id="GTA_Script_Aborted" data-uid="GTA.Script.Aborted">Aborted</h4>
+  <div class="markdown level1 summary"><p>An event that is raised when this <a class="xref" href="GTA.Script.html">Script</a> gets aborted for any reason.
+This should be used for cleaning up anything created during this <a class="xref" href="GTA.Script.html">Script</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Aborted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_KeyDown.md&amp;value=---%0Auid%3A%20GTA.Script.KeyDown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L113">View Source</a>
+  </span>
+  <h4 id="GTA_Script_KeyDown" data-uid="GTA.Script.KeyDown">KeyDown</h4>
+  <div class="markdown level1 summary"><p>An event that is raised when a key is first pressed.
+The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.windows.forms.keyeventargs">KeyEventArgs</a> contains the key that was pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event KeyEventHandler KeyDown</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.windows.forms.keyeventhandler">KeyEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_KeyUp.md&amp;value=---%0Auid%3A%20GTA.Script.KeyUp%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L90">View Source</a>
+  </span>
+  <h4 id="GTA_Script_KeyUp" data-uid="GTA.Script.KeyUp">KeyUp</h4>
+  <div class="markdown level1 summary"><p>An event that is raised when a key is lifted.
+The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.windows.forms.keyeventargs">KeyEventArgs</a> contains the key that was lifted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event KeyEventHandler KeyUp</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.windows.forms.keyeventhandler">KeyEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script_Tick.md&amp;value=---%0Auid%3A%20GTA.Script.Tick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L43">View Source</a>
+  </span>
+  <h4 id="GTA_Script_Tick" data-uid="GTA.Script.Tick">Tick</h4>
+  <div class="markdown level1 summary"><p>An event that is raised every tick of the script.
+Put code that needs to be looped each frame in here.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event EventHandler Tick</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.eventhandler">EventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Script.md&amp;value=---%0Auid%3A%20GTA.Script%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Script.cs/#L16" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

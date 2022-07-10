@@ -1,0 +1,932 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Rope
+   | RageCoop resource documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Rope
+   | RageCoop resource documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.Rope">
+  
+  
+  <h1 id="GTA_Rope" data-uid="GTA.Rope" class="text-break">Class Rope
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="GTA.PoolObject.html">PoolObject</a></div>
+    <div class="level2"><span class="xref">Rope</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GTA.Native.INativeValue.html">INativeValue</a></div>
+    <div><a class="xref" href="GTA.IDeletable.html">IDeletable</a></div>
+    <div><a class="xref" href="GTA.IExistable.html">IExistable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.PoolObject.html#GTA_PoolObject_Handle">PoolObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.PoolObject.html#GTA_PoolObject_NativeValue">PoolObject.NativeValue</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.html">GTA</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_Rope_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Rope : PoolObject, INativeValue, IDeletable, IExistable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20GTA.Rope.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L13">View Source</a>
+  </span>
+  <a id="GTA_Rope__ctor_" data-uid="GTA.Rope.#ctor*"></a>
+  <h4 id="GTA_Rope__ctor_System_Int32_" data-uid="GTA.Rope.#ctor(System.Int32)">Rope(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Rope(int handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Length.md&amp;value=---%0Auid%3A%20GTA.Rope.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L25">View Source</a>
+  </span>
+  <a id="GTA_Rope_Length_" data-uid="GTA.Rope.Length*"></a>
+  <h4 id="GTA_Rope_Length" data-uid="GTA.Rope.Length">Length</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the length of this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Length { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_VertexCount.md&amp;value=---%0Auid%3A%20GTA.Rope.VertexCount%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L20">View Source</a>
+  </span>
+  <a id="GTA_Rope_VertexCount_" data-uid="GTA.Rope.VertexCount*"></a>
+  <h4 id="GTA_Rope_VertexCount" data-uid="GTA.Rope.VertexCount">VertexCount</h4>
+  <div class="markdown level1 summary"><p>Gets the number of vertices of this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int VertexCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_ActivatePhysics.md&amp;value=---%0Auid%3A%20GTA.Rope.ActivatePhysics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L34">View Source</a>
+  </span>
+  <a id="GTA_Rope_ActivatePhysics_" data-uid="GTA.Rope.ActivatePhysics*"></a>
+  <h4 id="GTA_Rope_ActivatePhysics" data-uid="GTA.Rope.ActivatePhysics">ActivatePhysics()</h4>
+  <div class="markdown level1 summary"><p>Activates physics interactions for this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ActivatePhysics()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Attach_GTA_Entity_.md&amp;value=---%0Auid%3A%20GTA.Rope.Attach(GTA.Entity)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L43">View Source</a>
+  </span>
+  <a id="GTA_Rope_Attach_" data-uid="GTA.Rope.Attach*"></a>
+  <h4 id="GTA_Rope_Attach_GTA_Entity_" data-uid="GTA.Rope.Attach(GTA.Entity)">Attach(Entity)</h4>
+  <div class="markdown level1 summary"><p>Attaches a single <a class="xref" href="GTA.Entity.html">Entity</a> to this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(Entity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to attach.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Attach_GTA_Entity_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Rope.Attach(GTA.Entity%2CGTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L52">View Source</a>
+  </span>
+  <a id="GTA_Rope_Attach_" data-uid="GTA.Rope.Attach*"></a>
+  <h4 id="GTA_Rope_Attach_GTA_Entity_GTA_Math_Vector3_" data-uid="GTA.Rope.Attach(GTA.Entity,GTA.Math.Vector3)">Attach(Entity, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Attaches a single <a class="xref" href="GTA.Entity.html">Entity</a> to this <a class="xref" href="GTA.Rope.html">Rope</a> at the specified <code data-dev-comment-type="paramref" class="paramref">position</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Attach(Entity entity, Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to attach.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position in world coordinates to attach to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Connect_GTA_Entity_GTA_Entity_System_Single_.md&amp;value=---%0Auid%3A%20GTA.Rope.Connect(GTA.Entity%2CGTA.Entity%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L71">View Source</a>
+  </span>
+  <a id="GTA_Rope_Connect_" data-uid="GTA.Rope.Connect*"></a>
+  <h4 id="GTA_Rope_Connect_GTA_Entity_GTA_Entity_System_Single_" data-uid="GTA.Rope.Connect(GTA.Entity,GTA.Entity,System.Single)">Connect(Entity, Entity, Single)</h4>
+  <div class="markdown level1 summary"><p>Connects two <a class="xref" href="GTA.Entity.html">Entity</a>s with this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Connect(Entity entity1, Entity entity2, float length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity1</span></td>
+        <td><p>The first entity to attach.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity2</span></td>
+        <td><p>The second entity to attach.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The rope length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Connect_GTA_Entity_GTA_Math_Vector3_GTA_Entity_GTA_Math_Vector3_System_Single_.md&amp;value=---%0Auid%3A%20GTA.Rope.Connect(GTA.Entity%2CGTA.Math.Vector3%2CGTA.Entity%2CGTA.Math.Vector3%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L83">View Source</a>
+  </span>
+  <a id="GTA_Rope_Connect_" data-uid="GTA.Rope.Connect*"></a>
+  <h4 id="GTA_Rope_Connect_GTA_Entity_GTA_Math_Vector3_GTA_Entity_GTA_Math_Vector3_System_Single_" data-uid="GTA.Rope.Connect(GTA.Entity,GTA.Math.Vector3,GTA.Entity,GTA.Math.Vector3,System.Single)">Connect(Entity, Vector3, Entity, Vector3, Single)</h4>
+  <div class="markdown level1 summary"><p>Connects two <a class="xref" href="GTA.Entity.html">Entity</a>s with this <a class="xref" href="GTA.Rope.html">Rope</a> at the specified positions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Connect(Entity entity1, Vector3 position1, Entity entity2, Vector3 position2, float length)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity1</span></td>
+        <td><p>The first entity to attach.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position1</span></td>
+        <td><p>The position in world coordinates to attach the first entity to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity2</span></td>
+        <td><p>The second entity to attach.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position2</span></td>
+        <td><p>The position in world coordinates to attach the second entity to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">length</span></td>
+        <td><p>The rope length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Delete.md&amp;value=---%0Auid%3A%20GTA.Rope.Delete%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L119">View Source</a>
+  </span>
+  <a id="GTA_Rope_Delete_" data-uid="GTA.Rope.Delete*"></a>
+  <h4 id="GTA_Rope_Delete" data-uid="GTA.Rope.Delete">Delete()</h4>
+  <div class="markdown level1 summary"><p>Destroys this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Delete()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GTA.PoolObject.html#GTA_PoolObject_Delete">PoolObject.Delete()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Detach_GTA_Entity_.md&amp;value=---%0Auid%3A%20GTA.Rope.Detach(GTA.Entity)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L60">View Source</a>
+  </span>
+  <a id="GTA_Rope_Detach_" data-uid="GTA.Rope.Detach*"></a>
+  <h4 id="GTA_Rope_Detach_GTA_Entity_" data-uid="GTA.Rope.Detach(GTA.Entity)">Detach(Entity)</h4>
+  <div class="markdown level1 summary"><p>Detaches a single <a class="xref" href="GTA.Entity.html">Entity</a> from this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Detach(Entity entity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The entity to detach.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Equals_System_Object_.md&amp;value=---%0Auid%3A%20GTA.Rope.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L147">View Source</a>
+  </span>
+  <a id="GTA_Rope_Equals_" data-uid="GTA.Rope.Equals*"></a>
+  <h4 id="GTA_Rope_Equals_System_Object_" data-uid="GTA.Rope.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines if an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> refers to the same rope as this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if the <code data-dev-comment-type="paramref" class="paramref">obj</code> is the same rope as this <a class="xref" href="GTA.Rope.html">Rope</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_Exists.md&amp;value=---%0Auid%3A%20GTA.Rope.Exists%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L133">View Source</a>
+  </span>
+  <a id="GTA_Rope_Exists_" data-uid="GTA.Rope.Exists*"></a>
+  <h4 id="GTA_Rope_Exists" data-uid="GTA.Rope.Exists">Exists()</h4>
+  <div class="markdown level1 summary"><p>Determines if this <a class="xref" href="GTA.Rope.html">Rope</a> exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Exists()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if this <a class="xref" href="GTA.Rope.html">Rope</a> exists; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GTA.PoolObject.html#GTA_PoolObject_Exists">PoolObject.Exists()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_GetHashCode.md&amp;value=---%0Auid%3A%20GTA.Rope.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L186">View Source</a>
+  </span>
+  <a id="GTA_Rope_GetHashCode_" data-uid="GTA.Rope.GetHashCode*"></a>
+  <h4 id="GTA_Rope_GetHashCode" data-uid="GTA.Rope.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_GetVertexCoord_System_Int32_.md&amp;value=---%0Auid%3A%20GTA.Rope.GetVertexCoord(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L111">View Source</a>
+  </span>
+  <a id="GTA_Rope_GetVertexCoord_" data-uid="GTA.Rope.GetVertexCoord*"></a>
+  <h4 id="GTA_Rope_GetVertexCoord_System_Int32_" data-uid="GTA.Rope.GetVertexCoord(System.Int32)">GetVertexCoord(Int32)</h4>
+  <div class="markdown level1 summary"><p>Gets the world coordinates of a single vertex of this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetVertexCoord(int vertex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">vertex</span></td>
+        <td><p>The index of the vertex.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><p>The position of the vertex in world coordinates.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_PinVertex_System_Int32_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Rope.PinVertex(System.Int32%2CGTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L93">View Source</a>
+  </span>
+  <a id="GTA_Rope_PinVertex_" data-uid="GTA.Rope.PinVertex*"></a>
+  <h4 id="GTA_Rope_PinVertex_System_Int32_GTA_Math_Vector3_" data-uid="GTA.Rope.PinVertex(System.Int32,GTA.Math.Vector3)">PinVertex(Int32, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Pin a vertex of this <a class="xref" href="GTA.Rope.html">Rope</a> to a <code data-dev-comment-type="paramref" class="paramref">position</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PinVertex(int vertex, Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">vertex</span></td>
+        <td><p>The index of the vertex.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position in world coordinates to pin to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_UnpinVertex_System_Int32_.md&amp;value=---%0Auid%3A%20GTA.Rope.UnpinVertex(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L101">View Source</a>
+  </span>
+  <a id="GTA_Rope_UnpinVertex_" data-uid="GTA.Rope.UnpinVertex*"></a>
+  <h4 id="GTA_Rope_UnpinVertex_System_Int32_" data-uid="GTA.Rope.UnpinVertex(System.Int32)">UnpinVertex(Int32)</h4>
+  <div class="markdown level1 summary"><p>Unpin a vertex of this <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnpinVertex(int vertex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">vertex</span></td>
+        <td><p>The index of the vertex.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_op_Equality_GTA_Rope_GTA_Rope_.md&amp;value=---%0Auid%3A%20GTA.Rope.op_Equality(GTA.Rope%2CGTA.Rope)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L163">View Source</a>
+  </span>
+  <a id="GTA_Rope_op_Equality_" data-uid="GTA.Rope.op_Equality*"></a>
+  <h4 id="GTA_Rope_op_Equality_GTA_Rope_GTA_Rope_" data-uid="GTA.Rope.op_Equality(GTA.Rope,GTA.Rope)">Equality(Rope, Rope)</h4>
+  <div class="markdown level1 summary"><p>Determines if two <a class="xref" href="GTA.Rope.html">Rope</a>s refer to the same rope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Rope left, Rope right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Rope.html">Rope</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Rope.html">Rope</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref" class="paramref">left</code> is the same rope as <code data-dev-comment-type="paramref" class="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_op_Implicit_GTA_Rope__GTA_Native_InputArgument.md&amp;value=---%0Auid%3A%20GTA.Rope.op_Implicit(GTA.Rope)~GTA.Native.InputArgument%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L181">View Source</a>
+  </span>
+  <a id="GTA_Rope_op_Implicit_" data-uid="GTA.Rope.op_Implicit*"></a>
+  <h4 id="GTA_Rope_op_Implicit_GTA_Rope__GTA_Native_InputArgument" data-uid="GTA.Rope.op_Implicit(GTA.Rope)~GTA.Native.InputArgument">Implicit(Rope to InputArgument)</h4>
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="GTA.Rope.html">Rope</a> to a native input argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator InputArgument(Rope value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Rope.html">Rope</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Native.InputArgument.html">InputArgument</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope_op_Inequality_GTA_Rope_GTA_Rope_.md&amp;value=---%0Auid%3A%20GTA.Rope.op_Inequality(GTA.Rope%2CGTA.Rope)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L173">View Source</a>
+  </span>
+  <a id="GTA_Rope_op_Inequality_" data-uid="GTA.Rope.op_Inequality*"></a>
+  <h4 id="GTA_Rope_op_Inequality_GTA_Rope_GTA_Rope_" data-uid="GTA.Rope.op_Inequality(GTA.Rope,GTA.Rope)">Inequality(Rope, Rope)</h4>
+  <div class="markdown level1 summary"><p>Determines if two <a class="xref" href="GTA.Rope.html">Rope</a>s don't refer to the same rope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Rope left, Rope right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Rope.html">Rope</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Rope.html">Rope</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right <a class="xref" href="GTA.Rope.html">Rope</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref" class="paramref">left</code> is not the same rope as <code data-dev-comment-type="paramref" class="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GTA.Native.INativeValue.html">INativeValue</a>
+  </div>
+  <div>
+      <a class="xref" href="GTA.IDeletable.html">IDeletable</a>
+  </div>
+  <div>
+      <a class="xref" href="GTA.IExistable.html">IExistable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Rope.md&amp;value=---%0Auid%3A%20GTA.Rope%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Rope.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

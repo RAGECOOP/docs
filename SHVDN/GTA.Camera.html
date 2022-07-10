@@ -1,0 +1,1543 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Camera
+   | RageCoop resource documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Camera
+   | RageCoop resource documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.Camera">
+  
+  
+  <h1 id="GTA_Camera" data-uid="GTA.Camera" class="text-break">Class Camera
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><a class="xref" href="GTA.PoolObject.html">PoolObject</a></div>
+    <div class="level2"><span class="xref">Camera</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GTA.Native.INativeValue.html">INativeValue</a></div>
+    <div><a class="xref" href="GTA.IDeletable.html">IDeletable</a></div>
+    <div><a class="xref" href="GTA.IExistable.html">IExistable</a></div>
+    <div><a class="xref" href="GTA.ISpatial.html">ISpatial</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="GTA.PoolObject.html#GTA_PoolObject_Handle">PoolObject.Handle</a>
+    </div>
+    <div>
+      <a class="xref" href="GTA.PoolObject.html#GTA_PoolObject_NativeValue">PoolObject.NativeValue</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.html">GTA</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_Camera_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Camera : PoolObject, INativeValue, IDeletable, IExistable, ISpatial</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera__ctor_System_Int32_.md&amp;value=---%0Auid%3A%20GTA.Camera.%23ctor(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L28">View Source</a>
+  </span>
+  <a id="GTA_Camera__ctor_" data-uid="GTA.Camera.#ctor*"></a>
+  <h4 id="GTA_Camera__ctor_System_Int32_" data-uid="GTA.Camera.#ctor(System.Int32)">Camera(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Camera(int handle)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">handle</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_DepthOfFieldStrength.md&amp;value=---%0Auid%3A%20GTA.Camera.DepthOfFieldStrength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L223">View Source</a>
+  </span>
+  <a id="GTA_Camera_DepthOfFieldStrength_" data-uid="GTA.Camera.DepthOfFieldStrength*"></a>
+  <h4 id="GTA_Camera_DepthOfFieldStrength" data-uid="GTA.Camera.DepthOfFieldStrength">DepthOfFieldStrength</h4>
+  <div class="markdown level1 summary"><p>Sets the depth of field strength for this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float DepthOfFieldStrength { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Direction.md&amp;value=---%0Auid%3A%20GTA.Camera.Direction%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L101">View Source</a>
+  </span>
+  <a id="GTA_Camera_Direction_" data-uid="GTA.Camera.Direction*"></a>
+  <h4 id="GTA_Camera_Direction" data-uid="GTA.Camera.Direction">Direction</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the direction this <a class="xref" href="GTA.Camera.html">Camera</a> is pointing in.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Direction { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_FarClip.md&amp;value=---%0Auid%3A%20GTA.Camera.FarClip%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L171">View Source</a>
+  </span>
+  <a id="GTA_Camera_FarClip_" data-uid="GTA.Camera.FarClip*"></a>
+  <h4 id="GTA_Camera_FarClip" data-uid="GTA.Camera.FarClip">FarClip</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the far clip of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FarClip { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_FarDepthOfField.md&amp;value=---%0Auid%3A%20GTA.Camera.FarDepthOfField%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L198">View Source</a>
+  </span>
+  <a id="GTA_Camera_FarDepthOfField_" data-uid="GTA.Camera.FarDepthOfField*"></a>
+  <h4 id="GTA_Camera_FarDepthOfField" data-uid="GTA.Camera.FarDepthOfField">FarDepthOfField</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the far depth of field of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FarDepthOfField { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_FieldOfView.md&amp;value=---%0Auid%3A%20GTA.Camera.FieldOfView%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L189">View Source</a>
+  </span>
+  <a id="GTA_Camera_FieldOfView_" data-uid="GTA.Camera.FieldOfView*"></a>
+  <h4 id="GTA_Camera_FieldOfView" data-uid="GTA.Camera.FieldOfView">FieldOfView</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the field of view of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float FieldOfView { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_ForwardVector.md&amp;value=---%0Auid%3A%20GTA.Camera.ForwardVector%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L141">View Source</a>
+  </span>
+  <a id="GTA_Camera_ForwardVector_" data-uid="GTA.Camera.ForwardVector*"></a>
+  <h4 id="GTA_Camera_ForwardVector" data-uid="GTA.Camera.ForwardVector">ForwardVector</h4>
+  <div class="markdown level1 summary"><p>Gets the forward vector of this <a class="xref" href="GTA.Camera.html">Camera</a>, see also <a class="xref" href="GTA.Camera.html#GTA_Camera_Direction">Direction</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 ForwardVector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_IsActive.md&amp;value=---%0Auid%3A%20GTA.Camera.IsActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L59">View Source</a>
+  </span>
+  <a id="GTA_Camera_IsActive_" data-uid="GTA.Camera.IsActive*"></a>
+  <h4 id="GTA_Camera_IsActive" data-uid="GTA.Camera.IsActive">IsActive</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="GTA.Camera.html">Camera</a> is currently being rendered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsActive { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if this <a class="xref" href="GTA.Camera.html">Camera</a> is active; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_IsInterpolating.md&amp;value=---%0Auid%3A%20GTA.Camera.IsInterpolating%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L314">View Source</a>
+  </span>
+  <a id="GTA_Camera_IsInterpolating_" data-uid="GTA.Camera.IsInterpolating*"></a>
+  <h4 id="GTA_Camera_IsInterpolating" data-uid="GTA.Camera.IsInterpolating">IsInterpolating</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this <a class="xref" href="GTA.Camera.html">Camera</a> is interpolating.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsInterpolating { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if this <a class="xref" href="GTA.Camera.html">Camera</a> is interpolating; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_IsShaking.md&amp;value=---%0Auid%3A%20GTA.Camera.IsShaking%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L252">View Source</a>
+  </span>
+  <a id="GTA_Camera_IsShaking_" data-uid="GTA.Camera.IsShaking*"></a>
+  <h4 id="GTA_Camera_IsShaking" data-uid="GTA.Camera.IsShaking">IsShaking</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether this <a class="xref" href="GTA.Camera.html">Camera</a> is shaking.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsShaking { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if this <a class="xref" href="GTA.Camera.html">Camera</a> is shaking; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Matrix.md&amp;value=---%0Auid%3A%20GTA.Camera.Matrix%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L68">View Source</a>
+  </span>
+  <a id="GTA_Camera_Matrix_" data-uid="GTA.Camera.Matrix*"></a>
+  <h4 id="GTA_Camera_Matrix" data-uid="GTA.Camera.Matrix">Matrix</h4>
+  <div class="markdown level1 summary"><p>Gets the matrix of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Matrix Matrix { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Matrix.html">Matrix</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_MemoryAddress.md&amp;value=---%0Auid%3A%20GTA.Camera.MemoryAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L35">View Source</a>
+  </span>
+  <a id="GTA_Camera_MemoryAddress_" data-uid="GTA.Camera.MemoryAddress*"></a>
+  <h4 id="GTA_Camera_MemoryAddress" data-uid="GTA.Camera.MemoryAddress">MemoryAddress</h4>
+  <div class="markdown level1 summary"><p>Gets the memory address of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IntPtr MemoryAddress { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.intptr">IntPtr</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_MotionBlurStrength.md&amp;value=---%0Auid%3A%20GTA.Camera.MotionBlurStrength%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L215">View Source</a>
+  </span>
+  <a id="GTA_Camera_MotionBlurStrength_" data-uid="GTA.Camera.MotionBlurStrength*"></a>
+  <h4 id="GTA_Camera_MotionBlurStrength" data-uid="GTA.Camera.MotionBlurStrength">MotionBlurStrength</h4>
+  <div class="markdown level1 summary"><p>Sets the strength of the motion blur for this <a class="xref" href="GTA.Camera.html">Camera</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float MotionBlurStrength { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_NearClip.md&amp;value=---%0Auid%3A%20GTA.Camera.NearClip%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L180">View Source</a>
+  </span>
+  <a id="GTA_Camera_NearClip_" data-uid="GTA.Camera.NearClip*"></a>
+  <h4 id="GTA_Camera_NearClip" data-uid="GTA.Camera.NearClip">NearClip</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the near clip of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float NearClip { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_NearDepthOfField.md&amp;value=---%0Auid%3A%20GTA.Camera.NearDepthOfField%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L207">View Source</a>
+  </span>
+  <a id="GTA_Camera_NearDepthOfField_" data-uid="GTA.Camera.NearDepthOfField*"></a>
+  <h4 id="GTA_Camera_NearDepthOfField" data-uid="GTA.Camera.NearDepthOfField">NearDepthOfField</h4>
+  <div class="markdown level1 summary"><p>Sets the near depth of field for this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float NearDepthOfField { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Position.md&amp;value=---%0Auid%3A%20GTA.Camera.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L80">View Source</a>
+  </span>
+  <a id="GTA_Camera_Position_" data-uid="GTA.Camera.Position*"></a>
+  <h4 id="GTA_Camera_Position" data-uid="GTA.Camera.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the position of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Position { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_RightVector.md&amp;value=---%0Auid%3A%20GTA.Camera.RightVector%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L129">View Source</a>
+  </span>
+  <a id="GTA_Camera_RightVector_" data-uid="GTA.Camera.RightVector*"></a>
+  <h4 id="GTA_Camera_RightVector" data-uid="GTA.Camera.RightVector">RightVector</h4>
+  <div class="markdown level1 summary"><p>Gets the right vector of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 RightVector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Rotation.md&amp;value=---%0Auid%3A%20GTA.Camera.Rotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L92">View Source</a>
+  </span>
+  <a id="GTA_Camera_Rotation_" data-uid="GTA.Camera.Rotation*"></a>
+  <h4 id="GTA_Camera_Rotation" data-uid="GTA.Camera.Rotation">Rotation</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the rotation of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 Rotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><p>The yaw, pitch and roll rotations measured in degrees.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_ShakeAmplitude.md&amp;value=---%0Auid%3A%20GTA.Camera.ShakeAmplitude%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L260">View Source</a>
+  </span>
+  <a id="GTA_Camera_ShakeAmplitude_" data-uid="GTA.Camera.ShakeAmplitude*"></a>
+  <h4 id="GTA_Camera_ShakeAmplitude" data-uid="GTA.Camera.ShakeAmplitude">ShakeAmplitude</h4>
+  <div class="markdown level1 summary"><p>Sets the shake amplitude for this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float ShakeAmplitude { set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_UpVector.md&amp;value=---%0Auid%3A%20GTA.Camera.UpVector%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L117">View Source</a>
+  </span>
+  <a id="GTA_Camera_UpVector_" data-uid="GTA.Camera.UpVector*"></a>
+  <h4 id="GTA_Camera_UpVector" data-uid="GTA.Camera.UpVector">UpVector</h4>
+  <div class="markdown level1 summary"><p>Gets the up vector of this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 UpVector { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_AttachTo_GTA_Entity_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Camera.AttachTo(GTA.Entity%2CGTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L324">View Source</a>
+  </span>
+  <a id="GTA_Camera_AttachTo_" data-uid="GTA.Camera.AttachTo*"></a>
+  <h4 id="GTA_Camera_AttachTo_GTA_Entity_GTA_Math_Vector3_" data-uid="GTA.Camera.AttachTo(GTA.Entity,GTA.Math.Vector3)">AttachTo(Entity, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Attaches this <a class="xref" href="GTA.Camera.html">Camera</a> to a specific <a class="xref" href="GTA.Entity.html">Entity</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AttachTo(Entity entity, Vector3 offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">entity</span></td>
+        <td><p>The <a class="xref" href="GTA.Entity.html">Entity</a> to attach to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset from the <code data-dev-comment-type="paramref" class="paramref">entity</code> to attach to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_AttachTo_GTA_PedBone_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Camera.AttachTo(GTA.PedBone%2CGTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L333">View Source</a>
+  </span>
+  <a id="GTA_Camera_AttachTo_" data-uid="GTA.Camera.AttachTo*"></a>
+  <h4 id="GTA_Camera_AttachTo_GTA_PedBone_GTA_Math_Vector3_" data-uid="GTA.Camera.AttachTo(GTA.PedBone,GTA.Math.Vector3)">AttachTo(PedBone, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Attaches this <a class="xref" href="GTA.Camera.html">Camera</a> to a specific <a class="xref" href="GTA.PedBone.html">PedBone</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AttachTo(PedBone pedBone, Vector3 offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.PedBone.html">PedBone</a></td>
+        <td><span class="parametername">pedBone</span></td>
+        <td><p>The <a class="xref" href="GTA.PedBone.html">PedBone</a> to attach to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset from the <code data-dev-comment-type="paramref" class="paramref">pedBone</code> to attach to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Delete.md&amp;value=---%0Auid%3A%20GTA.Camera.Delete%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L349">View Source</a>
+  </span>
+  <a id="GTA_Camera_Delete_" data-uid="GTA.Camera.Delete*"></a>
+  <h4 id="GTA_Camera_Delete" data-uid="GTA.Camera.Delete">Delete()</h4>
+  <div class="markdown level1 summary"><p>Destroys this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Delete()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GTA.PoolObject.html#GTA_PoolObject_Delete">PoolObject.Delete()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Detach.md&amp;value=---%0Auid%3A%20GTA.Camera.Detach%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L341">View Source</a>
+  </span>
+  <a id="GTA_Camera_Detach_" data-uid="GTA.Camera.Detach*"></a>
+  <h4 id="GTA_Camera_Detach" data-uid="GTA.Camera.Detach">Detach()</h4>
+  <div class="markdown level1 summary"><p>Detaches this <a class="xref" href="GTA.Camera.html">Camera</a> from any <a class="xref" href="GTA.Entity.html">Entity</a> or <a class="xref" href="GTA.PedBone.html">PedBone</a> it may be attached to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Detach()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Equals_System_Object_.md&amp;value=---%0Auid%3A%20GTA.Camera.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L368">View Source</a>
+  </span>
+  <a id="GTA_Camera_Equals_" data-uid="GTA.Camera.Equals*"></a>
+  <h4 id="GTA_Camera_Equals_System_Object_" data-uid="GTA.Camera.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Determines if an <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> refers to the same camera as this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>The <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a> to check.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if the <code data-dev-comment-type="paramref" class="paramref">obj</code> is the same camera as this <a class="xref" href="GTA.Camera.html">Camera</a>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Exists.md&amp;value=---%0Auid%3A%20GTA.Camera.Exists%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L358">View Source</a>
+  </span>
+  <a id="GTA_Camera_Exists_" data-uid="GTA.Camera.Exists*"></a>
+  <h4 id="GTA_Camera_Exists" data-uid="GTA.Camera.Exists">Exists()</h4>
+  <div class="markdown level1 summary"><p>Determines if this <a class="xref" href="GTA.Camera.html">Camera</a> exists.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Exists()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if this <a class="xref" href="GTA.Camera.html">Camera</a> exists; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="GTA.PoolObject.html#GTA_PoolObject_Exists">PoolObject.Exists()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_GetHashCode.md&amp;value=---%0Auid%3A%20GTA.Camera.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L407">View Source</a>
+  </span>
+  <a id="GTA_Camera_GetHashCode_" data-uid="GTA.Camera.GetHashCode*"></a>
+  <h4 id="GTA_Camera_GetHashCode" data-uid="GTA.Camera.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_GetOffsetPosition_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Camera.GetOffsetPosition(GTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L154">View Source</a>
+  </span>
+  <a id="GTA_Camera_GetOffsetPosition_" data-uid="GTA.Camera.GetOffsetPosition*"></a>
+  <h4 id="GTA_Camera_GetOffsetPosition_GTA_Math_Vector3_" data-uid="GTA.Camera.GetOffsetPosition(GTA.Math.Vector3)">GetOffsetPosition(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Gets the position in world coordinates of an offset relative to this <a class="xref" href="GTA.Camera.html">Camera</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetOffsetPosition(Vector3 offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset from this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_GetPositionOffset_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Camera.GetPositionOffset(GTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L163">View Source</a>
+  </span>
+  <a id="GTA_Camera_GetPositionOffset_" data-uid="GTA.Camera.GetPositionOffset*"></a>
+  <h4 id="GTA_Camera_GetPositionOffset_GTA_Math_Vector3_" data-uid="GTA.Camera.GetPositionOffset(GTA.Math.Vector3)">GetPositionOffset(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Gets the relative offset of this <a class="xref" href="GTA.Camera.html">Camera</a> from a world coordinates position</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 GetPositionOffset(Vector3 worldCoords)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">worldCoords</span></td>
+        <td><p>The world coordinates.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_InterpTo_GTA_Camera_System_Int32_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20GTA.Camera.InterpTo(GTA.Camera%2CSystem.Int32%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L303">View Source</a>
+  </span>
+  <a id="GTA_Camera_InterpTo_" data-uid="GTA.Camera.InterpTo*"></a>
+  <h4 id="GTA_Camera_InterpTo_GTA_Camera_System_Int32_System_Int32_System_Int32_" data-uid="GTA.Camera.InterpTo(GTA.Camera,System.Int32,System.Int32,System.Int32)">InterpTo(Camera, Int32, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Moves this <a class="xref" href="GTA.Camera.html">Camera</a> to the <code data-dev-comment-type="paramref" class="paramref">to</code> position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void InterpTo(Camera to, int duration, int easePosition, int easeRotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Camera.html">Camera</a></td>
+        <td><span class="parametername">to</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">easePosition</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">easeRotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_PointAt_GTA_Entity_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Camera.PointAt(GTA.Entity%2CGTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L270">View Source</a>
+  </span>
+  <a id="GTA_Camera_PointAt_" data-uid="GTA.Camera.PointAt*"></a>
+  <h4 id="GTA_Camera_PointAt_GTA_Entity_GTA_Math_Vector3_" data-uid="GTA.Camera.PointAt(GTA.Entity,GTA.Math.Vector3)">PointAt(Entity, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Points this <a class="xref" href="GTA.Camera.html">Camera</a> at a specified <a class="xref" href="GTA.Entity.html">Entity</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PointAt(Entity target, Vector3 offset = default(Vector3))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Entity.html">Entity</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The <a class="xref" href="GTA.Entity.html">Entity</a> to point at.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset from the <code data-dev-comment-type="paramref" class="paramref">target</code> to point at.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_PointAt_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Camera.PointAt(GTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L287">View Source</a>
+  </span>
+  <a id="GTA_Camera_PointAt_" data-uid="GTA.Camera.PointAt*"></a>
+  <h4 id="GTA_Camera_PointAt_GTA_Math_Vector3_" data-uid="GTA.Camera.PointAt(GTA.Math.Vector3)">PointAt(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Points this <a class="xref" href="GTA.Camera.html">Camera</a> at a specified position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PointAt(Vector3 target)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The position to point at.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_PointAt_GTA_PedBone_GTA_Math_Vector3_.md&amp;value=---%0Auid%3A%20GTA.Camera.PointAt(GTA.PedBone%2CGTA.Math.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L279">View Source</a>
+  </span>
+  <a id="GTA_Camera_PointAt_" data-uid="GTA.Camera.PointAt*"></a>
+  <h4 id="GTA_Camera_PointAt_GTA_PedBone_GTA_Math_Vector3_" data-uid="GTA.Camera.PointAt(GTA.PedBone,GTA.Math.Vector3)">PointAt(PedBone, Vector3)</h4>
+  <div class="markdown level1 summary"><p>Points this <a class="xref" href="GTA.Camera.html">Camera</a> at a specified <a class="xref" href="GTA.PedBone.html">PedBone</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PointAt(PedBone target, Vector3 offset = default(Vector3))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.PedBone.html">PedBone</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>The <a class="xref" href="GTA.PedBone.html">PedBone</a> to point at.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Math.Vector3.html">Vector3</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset from the <code data-dev-comment-type="paramref" class="paramref">target</code> to point at</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_Shake_GTA_CameraShake_System_Single_.md&amp;value=---%0Auid%3A%20GTA.Camera.Shake(GTA.CameraShake%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L233">View Source</a>
+  </span>
+  <a id="GTA_Camera_Shake_" data-uid="GTA.Camera.Shake*"></a>
+  <h4 id="GTA_Camera_Shake_GTA_CameraShake_System_Single_" data-uid="GTA.Camera.Shake(GTA.CameraShake,System.Single)">Shake(CameraShake, Single)</h4>
+  <div class="markdown level1 summary"><p>Shakes this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Shake(CameraShake shakeType, float amplitude)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.CameraShake.html">CameraShake</a></td>
+        <td><span class="parametername">shakeType</span></td>
+        <td><p>Type of the shake to apply.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">amplitude</span></td>
+        <td><p>The amplitude of the shaking.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_StopPointing.md&amp;value=---%0Auid%3A%20GTA.Camera.StopPointing%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L295">View Source</a>
+  </span>
+  <a id="GTA_Camera_StopPointing_" data-uid="GTA.Camera.StopPointing*"></a>
+  <h4 id="GTA_Camera_StopPointing" data-uid="GTA.Camera.StopPointing">StopPointing()</h4>
+  <div class="markdown level1 summary"><p>Stops this <a class="xref" href="GTA.Camera.html">Camera</a> pointing at a specific target.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopPointing()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_StopShaking.md&amp;value=---%0Auid%3A%20GTA.Camera.StopShaking%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L241">View Source</a>
+  </span>
+  <a id="GTA_Camera_StopShaking_" data-uid="GTA.Camera.StopShaking*"></a>
+  <h4 id="GTA_Camera_StopShaking" data-uid="GTA.Camera.StopShaking">StopShaking()</h4>
+  <div class="markdown level1 summary"><p>Stops shaking this <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopShaking()</code></pre>
+  </div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_op_Equality_GTA_Camera_GTA_Camera_.md&amp;value=---%0Auid%3A%20GTA.Camera.op_Equality(GTA.Camera%2CGTA.Camera)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L384">View Source</a>
+  </span>
+  <a id="GTA_Camera_op_Equality_" data-uid="GTA.Camera.op_Equality*"></a>
+  <h4 id="GTA_Camera_op_Equality_GTA_Camera_GTA_Camera_" data-uid="GTA.Camera.op_Equality(GTA.Camera,GTA.Camera)">Equality(Camera, Camera)</h4>
+  <div class="markdown level1 summary"><p>Determines if two <a class="xref" href="GTA.Camera.html">Camera</a>s refer to the same camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Camera left, Camera right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Camera.html">Camera</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Camera.html">Camera</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref" class="paramref">left</code> is the same camera as <code data-dev-comment-type="paramref" class="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_op_Implicit_GTA_Camera__GTA_Native_InputArgument.md&amp;value=---%0Auid%3A%20GTA.Camera.op_Implicit(GTA.Camera)~GTA.Native.InputArgument%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L402">View Source</a>
+  </span>
+  <a id="GTA_Camera_op_Implicit_" data-uid="GTA.Camera.op_Implicit*"></a>
+  <h4 id="GTA_Camera_op_Implicit_GTA_Camera__GTA_Native_InputArgument" data-uid="GTA.Camera.op_Implicit(GTA.Camera)~GTA.Native.InputArgument">Implicit(Camera to InputArgument)</h4>
+  <div class="markdown level1 summary"><p>Converts a <a class="xref" href="GTA.Camera.html">Camera</a> to a native input argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator InputArgument(Camera value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Camera.html">Camera</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Native.InputArgument.html">InputArgument</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera_op_Inequality_GTA_Camera_GTA_Camera_.md&amp;value=---%0Auid%3A%20GTA.Camera.op_Inequality(GTA.Camera%2CGTA.Camera)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L394">View Source</a>
+  </span>
+  <a id="GTA_Camera_op_Inequality_" data-uid="GTA.Camera.op_Inequality*"></a>
+  <h4 id="GTA_Camera_op_Inequality_GTA_Camera_GTA_Camera_" data-uid="GTA.Camera.op_Inequality(GTA.Camera,GTA.Camera)">Inequality(Camera, Camera)</h4>
+  <div class="markdown level1 summary"><p>Determines if two <a class="xref" href="GTA.Checkpoint.html">Checkpoint</a>s don't refer to the same camera.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Camera left, Camera right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="GTA.Camera.html">Camera</a></td>
+        <td><span class="parametername">left</span></td>
+        <td><p>The left <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="GTA.Camera.html">Camera</a></td>
+        <td><span class="parametername">right</span></td>
+        <td><p>The right <a class="xref" href="GTA.Camera.html">Camera</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if <code data-dev-comment-type="paramref" class="paramref">left</code> is not the same camera as <code data-dev-comment-type="paramref" class="paramref">right</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GTA.Native.INativeValue.html">INativeValue</a>
+  </div>
+  <div>
+      <a class="xref" href="GTA.IDeletable.html">IDeletable</a>
+  </div>
+  <div>
+      <a class="xref" href="GTA.IExistable.html">IExistable</a>
+  </div>
+  <div>
+      <a class="xref" href="GTA.ISpatial.html">ISpatial</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_Camera.md&amp;value=---%0Auid%3A%20GTA.Camera%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA/Camera.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

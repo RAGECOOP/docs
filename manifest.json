@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "M:/SandBox-Shared/repos/RageCoop/RageCoop-V",
+  "source_base_path": "M:/SandBox-Shared/repos/RageCoop/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -14,11 +14,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "README.md",
+      "source_relative_path": "../RageCoop-V/README.md",
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "pr8iZEnD+e9FBgqcqtSVdco9XpiIvzw68Jo+XGb22TM="
+          "hash": "YuVHELJrYnHXpg8MsrrI/oPLsqnmq69SPrL/Cy1g95w="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "1LFxLJxGw33vjwu18X5TzD6XpK2lhgCcWXklDwijzOU="
+          "hash": "2AeXIGpqcEXcLpgobto34zajdAhpteshK5s4x+pmDHA="
         }
       },
       "is_incremental": false,
@@ -44,8 +44,8 @@
       "source_relative_path": "obj/api/RageCoop.Client.CoopProp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.CoopProp.html",
-          "hash": "Uk8Hx9ltyq1pR+GkNEveVSXh95AbRUQoXzllHx87jvI="
+          "relative_path": "API/RageCoop.Client.CoopProp.html",
+          "hash": "C71G6NpattosBVCTU9mV/qbqZg4TvThC5SZQ26oaWHQ="
         }
       },
       "is_incremental": false,
@@ -56,7 +56,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Map.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Map.html",
+          "relative_path": "API/RageCoop.Client.Map.html",
           "hash": "VmVDHWaovZQd41aDgeZZHqZhsu5U4J13K5UwCCsoatM="
         }
       },
@@ -68,8 +68,8 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.API.Config.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.API.Config.html",
-          "hash": "oE9LrKsw83vyBp94AaNbvoHXxkpx7htXUTQNv22/w+I="
+          "relative_path": "API/RageCoop.Client.Scripting.API.Config.html",
+          "hash": "8lFPa+E7R5pmyXbOun1BLk5LrxchEEnEHS3KU/kmjKc="
         }
       },
       "is_incremental": false,
@@ -80,7 +80,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.API.Events.CustomEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.API.Events.CustomEvent.html",
+          "relative_path": "API/RageCoop.Client.Scripting.API.Events.CustomEvent.html",
           "hash": "7KUvg+50WYOIxZHldiyPSkGRxqNu+R/+Vdo3PQudsRQ="
         }
       },
@@ -92,7 +92,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.API.Events.EmptyEvent.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.API.Events.EmptyEvent.html",
+          "relative_path": "API/RageCoop.Client.Scripting.API.Events.EmptyEvent.html",
           "hash": "WPLB0XVPhZVV2j3AsHMJWheqQ5iJoYsBFno8b+DBfaA="
         }
       },
@@ -104,8 +104,8 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.API.Events.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.API.Events.html",
-          "hash": "D6Na+UtyQqlCFqFLlfvJTGHTNZhSV093k2sUl5hHCyo="
+          "relative_path": "API/RageCoop.Client.Scripting.API.Events.html",
+          "hash": "sk2cwzqGbZBIOyGBmDnGPizXMx0ObSbcznKbac2ooGM="
         }
       },
       "is_incremental": false,
@@ -116,7 +116,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.API.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.API.html",
+          "relative_path": "API/RageCoop.Client.Scripting.API.html",
           "hash": "g2gzCGEfK6N/g88BY6mPWCHmY86Ua4lQZ2fcxFyn268="
         }
       },
@@ -128,7 +128,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.ClientResource.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.ClientResource.html",
+          "relative_path": "API/RageCoop.Client.Scripting.ClientResource.html",
           "hash": "DWuQFc3XIPeJmwkLherFIVwj56ovu1rXP3CQvrGoo7k="
         }
       },
@@ -140,7 +140,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.ClientScript.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.ClientScript.html",
+          "relative_path": "API/RageCoop.Client.Scripting.ClientScript.html",
           "hash": "V8Yh0W8zbx3z/YXULlTmYhfrDWZvlxPkwLOCikAP7pc="
         }
       },
@@ -152,7 +152,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.CustomEventReceivedArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.CustomEventReceivedArgs.html",
+          "relative_path": "API/RageCoop.Client.Scripting.CustomEventReceivedArgs.html",
           "hash": "pF96N5zynDc0gW+lndOoa7WJpl6V81hxrDV3CxY1Oco="
         }
       },
@@ -164,7 +164,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Scripting.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Scripting.html",
+          "relative_path": "API/RageCoop.Client.Scripting.html",
           "hash": "1enmUyumu3umpIl8J8yiSrw2ihgjeMGHWBUbhDGcmbs="
         }
       },
@@ -176,7 +176,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.Settings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.Settings.html",
+          "relative_path": "API/RageCoop.Client.Settings.html",
           "hash": "akIBiz4u7VVvtZlszKyu+5CHnpMs358aYOoo2EZLUfE="
         }
       },
@@ -188,7 +188,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.SyncedEntity.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.SyncedEntity.html",
+          "relative_path": "API/RageCoop.Client.SyncedEntity.html",
           "hash": "YSBL7yl2h2WmhKu+2L2f3bEzvqEUnMBvvP8c18JgGzI="
         }
       },
@@ -200,8 +200,8 @@
       "source_relative_path": "obj/api/RageCoop.Client.SyncedPed.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.SyncedPed.html",
-          "hash": "Q2le0/42XOaLZIbAkxlFo5fyvp8X+BGwxruWv6BnxTk="
+          "relative_path": "API/RageCoop.Client.SyncedPed.html",
+          "hash": "hFQB9373jeiB/BwpfS1VcSTerSs+B8nWt9bO0JIPZEs="
         }
       },
       "is_incremental": false,
@@ -212,8 +212,8 @@
       "source_relative_path": "obj/api/RageCoop.Client.SyncedProp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.SyncedProp.html",
-          "hash": "t1CXaj8fxKE44r46uA6+3ktc8TffnpFBjX4njC8ii+I="
+          "relative_path": "API/RageCoop.Client.SyncedProp.html",
+          "hash": "wU9c6nTTO7mOPLTspI4yvBScWfebZb58wWHNFb84BvU="
         }
       },
       "is_incremental": false,
@@ -224,8 +224,8 @@
       "source_relative_path": "obj/api/RageCoop.Client.SyncedVehicle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.SyncedVehicle.html",
-          "hash": "dhZIv2mC9dGkfEdzC5AKSRqGtDzm41D3ewMml9PtRvI="
+          "relative_path": "API/RageCoop.Client.SyncedVehicle.html",
+          "hash": "0gW7P2m2RIcPMRRmT3UDOD6HvEeenyVE9z6l02naQHE="
         }
       },
       "is_incremental": false,
@@ -236,8 +236,8 @@
       "source_relative_path": "obj/api/RageCoop.Client.WorldThread.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.WorldThread.html",
-          "hash": "RZltLQEk2fiK789k2+XuE8pEODHVdwKQEFK65LixWg4="
+          "relative_path": "API/RageCoop.Client.WorldThread.html",
+          "hash": "GJhVJ85LLTwKb3dyJlu7xh8vTI2WRUaOwOZFsLj1ESo="
         }
       },
       "is_incremental": false,
@@ -248,7 +248,7 @@
       "source_relative_path": "obj/api/RageCoop.Client.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Client.html",
+          "relative_path": "API/RageCoop.Client.html",
           "hash": "J6fttN0Fj2fhEuRVoP/Bpy/dhkSo8zn/bYFPXBkPgOM="
         }
       },
@@ -260,7 +260,7 @@
       "source_relative_path": "obj/api/RageCoop.Core.Logger.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Core.Logger.html",
+          "relative_path": "API/RageCoop.Core.Logger.html",
           "hash": "YanbXGDHE1goamhsD7R8Bletk37ezNJXNCtNdZ72NnI="
         }
       },
@@ -272,7 +272,7 @@
       "source_relative_path": "obj/api/RageCoop.Core.Scripting.CustomEvents.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Core.Scripting.CustomEvents.html",
+          "relative_path": "API/RageCoop.Core.Scripting.CustomEvents.html",
           "hash": "B/le+HyihxYQ/gh1yUDnwXLySP8Mx85qjVQx9PFZIuY="
         }
       },
@@ -284,7 +284,7 @@
       "source_relative_path": "obj/api/RageCoop.Core.Scripting.ResourceFile.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Core.Scripting.ResourceFile.html",
+          "relative_path": "API/RageCoop.Core.Scripting.ResourceFile.html",
           "hash": "qPhFoPWGddOviLptT6PyTnbi6hWuBKg7ClU1J97JMTo="
         }
       },
@@ -296,7 +296,7 @@
       "source_relative_path": "obj/api/RageCoop.Core.Scripting.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Core.Scripting.html",
+          "relative_path": "API/RageCoop.Core.Scripting.html",
           "hash": "4YR6QdqirUZ24gM6EkP9ECuFfcGW5v16HZ+CPa0qK+g="
         }
       },
@@ -308,7 +308,7 @@
       "source_relative_path": "obj/api/RageCoop.Core.Worker.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Core.Worker.html",
+          "relative_path": "API/RageCoop.Core.Worker.html",
           "hash": "3zwJicISQKV/avJoUu4cHTfRJ0wWya1nKDdogLoQDyQ="
         }
       },
@@ -320,7 +320,7 @@
       "source_relative_path": "obj/api/RageCoop.Core.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Core.html",
+          "relative_path": "API/RageCoop.Core.html",
           "hash": "B80U2KwwwqxTz2rZuIUOvxAkE3zl7GvJYz3bOEo975k="
         }
       },
@@ -332,8 +332,8 @@
       "source_relative_path": "obj/api/RageCoop.Server.Client.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Client.html",
-          "hash": "cwbvqPEyg4SPw0sCT4LTou4H/0AqTkrwl4nGmRGs/To="
+          "relative_path": "API/RageCoop.Server.Client.html",
+          "hash": "xAB9M3+osdLPX0477I0OEiApEStRo2jcTH/QgguE4Ao="
         }
       },
       "is_incremental": false,
@@ -344,8 +344,8 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.API.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.API.html",
-          "hash": "2+FcM4J7HQf9ZRnJCTtk0BB3qZs5Vfcz1fRBpdE1/8s="
+          "relative_path": "API/RageCoop.Server.Scripting.API.html",
+          "hash": "HLaN4v6ddJPo1Q9cXGlxD1xee7jwntsT7/JOFIuhNuU="
         }
       },
       "is_incremental": false,
@@ -356,7 +356,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ChatEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ChatEventArgs.html",
+          "relative_path": "API/RageCoop.Server.Scripting.ChatEventArgs.html",
           "hash": "ZwpdgUfTNpkT7ptdl6DIa9DBV7ODBng79w6zsdTV1l0="
         }
       },
@@ -368,7 +368,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.Command.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.Command.html",
+          "relative_path": "API/RageCoop.Server.Scripting.Command.html",
           "hash": "u3YhfHBTha/X6o65J5Ksk3N9itbzJ4XiCRshECKgJng="
         }
       },
@@ -380,7 +380,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.CommandContext.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.CommandContext.html",
+          "relative_path": "API/RageCoop.Server.Scripting.CommandContext.html",
           "hash": "6RgHXclg5z1njsNwOr7UdDsHL4aVmlLapAoP6owNJtA="
         }
       },
@@ -392,7 +392,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.CustomEventReceivedArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.CustomEventReceivedArgs.html",
+          "relative_path": "API/RageCoop.Server.Scripting.CustomEventReceivedArgs.html",
           "hash": "7Ipc8ZlCOrPFZg18A+caKEqGWehp7TCeiLnALOTXByM="
         }
       },
@@ -404,7 +404,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.HandshakeEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.HandshakeEventArgs.html",
+          "relative_path": "API/RageCoop.Server.Scripting.HandshakeEventArgs.html",
           "hash": "YjeHlRPL7rzvY6CKhtvx2eiChvFGLhVWoJfdS4kaqIg="
         }
       },
@@ -416,7 +416,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.OnCommandEventArgs.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.OnCommandEventArgs.html",
+          "relative_path": "API/RageCoop.Server.Scripting.OnCommandEventArgs.html",
           "hash": "ER8E3uvFBVMOLzX47RGppvWyTuRL7h+trtttp/ISdXU="
         }
       },
@@ -428,8 +428,8 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.PedBlip.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.PedBlip.html",
-          "hash": "8QPQwHOlUcy4HX+aUUdXJGoKz4HfKkld6IEivXlpCuA="
+          "relative_path": "API/RageCoop.Server.Scripting.PedBlip.html",
+          "hash": "9h8+1qzYW/gR40Q61Uk4kS981ayYYuYX5pXgF2wRVGk="
         }
       },
       "is_incremental": false,
@@ -440,8 +440,8 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerBlip.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerBlip.html",
-          "hash": "I7YWvIsiIEuARR41jGrieoN9kg6lT//LHN+34NTlYOc="
+          "relative_path": "API/RageCoop.Server.Scripting.ServerBlip.html",
+          "hash": "I3FPwdjJICHE5AFc5U6vZOKY6CiZs6GQY8D8Mz9bXKo="
         }
       },
       "is_incremental": false,
@@ -452,8 +452,8 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerEntities.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerEntities.html",
-          "hash": "W/5WUX/XP06YP2DpJcecmRI5gkPUH1g5fWKnbI0IFig="
+          "relative_path": "API/RageCoop.Server.Scripting.ServerEntities.html",
+          "hash": "xfzUOTctO+fjDYPEYgFXV1GKkvvm1S8hZTxHpKNU/PM="
         }
       },
       "is_incremental": false,
@@ -464,7 +464,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerEvents.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerEvents.html",
+          "relative_path": "API/RageCoop.Server.Scripting.ServerEvents.html",
           "hash": "McBcrN54pUHpjR12BklFgPOqhS0UCxwUKsCuZrBsiKc="
         }
       },
@@ -476,8 +476,8 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerObject.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerObject.html",
-          "hash": "gnMcCcBSVuUOrSt/Ab1GnXaX+92uKmJF52HQvkcl2yY="
+          "relative_path": "API/RageCoop.Server.Scripting.ServerObject.html",
+          "hash": "q9OD7nzxwiNROdnyHoKF+u5M6TQ+5yv7w0X4/Q5H70E="
         }
       },
       "is_incremental": false,
@@ -488,7 +488,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerPed.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerPed.html",
+          "relative_path": "API/RageCoop.Server.Scripting.ServerPed.html",
           "hash": "XGhPtZfJouhuw9N/ivNTU5HRqQVG/7iqIzgwCpBPc78="
         }
       },
@@ -500,8 +500,8 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerProp.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerProp.html",
-          "hash": "JwPPEMrCqy3SKHJuV+wqqzdQjZTxkvRvCvcsOjpN+jc="
+          "relative_path": "API/RageCoop.Server.Scripting.ServerProp.html",
+          "hash": "Y4vDkzx1ZxtO0hUJ/qZMBYwTn1YZrHpKKRlZZJAm2Xk="
         }
       },
       "is_incremental": false,
@@ -512,7 +512,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerResource.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerResource.html",
+          "relative_path": "API/RageCoop.Server.Scripting.ServerResource.html",
           "hash": "TUWs7xAaaLgtSeu+6mDLCqcxc0fRnXELxipLckkBRO0="
         }
       },
@@ -524,7 +524,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerScript.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerScript.html",
+          "relative_path": "API/RageCoop.Server.Scripting.ServerScript.html",
           "hash": "+WOGIL+kUdq0OA8WfW5ubzm1kDIizPbNhx36uRXjp0o="
         }
       },
@@ -536,8 +536,8 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.ServerVehicle.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.ServerVehicle.html",
-          "hash": "7jkP85p+cMvpt4+h6el6Or073TQCnH7sgSjufGuarxg="
+          "relative_path": "API/RageCoop.Server.Scripting.ServerVehicle.html",
+          "hash": "96XQytDQpzaYRDq1XBbEGzHrYeDI/uyTzzCnz7UMYWE="
         }
       },
       "is_incremental": false,
@@ -548,7 +548,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Scripting.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Scripting.html",
+          "relative_path": "API/RageCoop.Server.Scripting.html",
           "hash": "TDLbATJ3GdNQNc0+qZ6qJlXc0+1LA59a273ILp/m/Ow="
         }
       },
@@ -560,7 +560,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.Server.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.Server.html",
+          "relative_path": "API/RageCoop.Server.Server.html",
           "hash": "Oeq9b6VRFxSmTOJi0vwDGo6APg9ZuBnhCl2oxuSrZ4Q="
         }
       },
@@ -572,7 +572,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.ServerSettings.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.ServerSettings.html",
+          "relative_path": "API/RageCoop.Server.ServerSettings.html",
           "hash": "yLQ3ep9p/5yyUAbQA0OjOm+3RNBOhhw9u7dbW8A2QJE="
         }
       },
@@ -584,7 +584,7 @@
       "source_relative_path": "obj/api/RageCoop.Server.yml",
       "output": {
         ".html": {
-          "relative_path": "api/RageCoop.Server.html",
+          "relative_path": "API/RageCoop.Server.html",
           "hash": "MZ7YCuI30sBSEUCJx6/GoXA3X03xxeDLESs8kElMJrU="
         }
       },
@@ -596,8 +596,3260 @@
       "source_relative_path": "obj/api/toc.yml",
       "output": {
         ".html": {
-          "relative_path": "api/toc.html",
+          "relative_path": "API/toc.html",
           "hash": "ZHjnDkBQ90EJF8E0YaqlgV9qbOm15fjetiHBs+V4Ovw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.AnimatedBuilding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.AnimatedBuilding.html",
+          "hash": "R3dGesjr1PDlMS/5wcPcWijHin39S+eJ1rHqtSrF+/E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.AnimationFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.AnimationFlags.html",
+          "hash": "RH2wfObIoc5cM5T/d3BEnqroaTkTWOIfK+zFJsFCvlc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Audio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Audio.html",
+          "hash": "1qgDC4TqBHFU9wCy3q/a86NCGiX3GJHQrOnuK1b0Jj0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.AudioFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.AudioFlags.html",
+          "hash": "DhgctpZMUchKV5Nptxph9/v4g3hTMCAWH+UU7rTZr0U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Blip.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Blip.html",
+          "hash": "sKV8GXSzrvty2CynAFr9Eucgifj4RlBZtqqiDJ1u+F4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.BlipCategoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.BlipCategoryType.html",
+          "hash": "mNeOESXYniLGqZtHiRT4mmnpdHvl/qajJzRtpJii09o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.BlipColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.BlipColor.html",
+          "hash": "2vr/QrP+OYFOYK8zhA6N1KHVWbKoR1nOcJpaqohZU4E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.BlipDisplayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.BlipDisplayType.html",
+          "hash": "0FQ65vkktaVET/IRpfb+6zovwaP4bL4Y2WrdHY/NHeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.BlipSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.BlipSprite.html",
+          "hash": "7MhnZXynlPosRGtZ8rvrq3cZ5eYrLsAzkjcGP89CERM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Bone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Bone.html",
+          "hash": "v6cn+wLSz/P8PWdJUBLfxo6hZShl2DS8omSDrK1IBdY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Building.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Building.html",
+          "hash": "PWojYsDSzmb4cqEJrPtfGCtrJ9vTaOwzWa66VCaFJYE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Button.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Button.html",
+          "hash": "/noHV/51h5CTodYoqPWlf9PIdcwOGcNeocl+3ixH+8Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Camera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Camera.html",
+          "hash": "FWOkCewpM14FjdE58VSvP7hUp+41M/bzHa1FaPdYswY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.CameraShake.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.CameraShake.html",
+          "hash": "ygSogjhVXw50Wlym2PeKkoUGsWvIF3FQuO54y5ulKAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.CargobobHook.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.CargobobHook.html",
+          "hash": "3HdLd/n10p1PiXTVdFcc1paSCytD0IZx2PRtO8UUzow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Checkpoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Checkpoint.html",
+          "hash": "65XMCc6/LLbByy0JvmvTNKY+oCkz+W/oQvekSCXAZZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.CheckpointCustomIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.CheckpointCustomIcon.html",
+          "hash": "sX7bWY9DAxZQtpLLt9LD736sDrt4IXwVXGGQ+uhqJOU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.CheckpointCustomIconStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.CheckpointCustomIconStyle.html",
+          "hash": "y65keMToFMD+V410yj76oZsUPQS+M2ZXwXz3IsMoTOM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.CheckpointIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.CheckpointIcon.html",
+          "hash": "ePlKndn2ciLdrCAtP4hAE5qh++C7Ul6ck0viEGGNz08="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Control.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Control.html",
+          "hash": "cGA/ryKXYwxS1PGRc9wZIL698zaIOnXxoCK9Kbqchyw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.DrivingStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.DrivingStyle.html",
+          "hash": "7xxuHWk6vo+zTcDmlo825nERHJXRfsSF55JHz+HPukc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.EnterVehicleFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.EnterVehicleFlags.html",
+          "hash": "Ra4rNxLS1P5a7pOPvGVFURnndAFXoaQBEGcZ1FchCAA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Entity.html",
+          "hash": "IGZnN0lQ/lopKVbjn2+aPDvL9FuodgjtmRpDfN0E1Os="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.EntityBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.EntityBone.html",
+          "hash": "idXe+irPf+sCNt2n9Ob9rFfhylcCG1ydpMG1s3WuLCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.EntityBoneCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.EntityBoneCollection.Enumerator.html",
+          "hash": "PZO5F9H7T9y3ybmp7YpB0QyTrBzucGfEC5VuWNmCjow="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.EntityBoneCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.EntityBoneCollection.html",
+          "hash": "0In3M8P9Xs2Z29VsqoY6EFVYJiE8xeubmwDlFSKhmoQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.EntityDamageRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.EntityDamageRecord.html",
+          "hash": "6ejd6zzz/Io9HKBwESkL8pLGn7JtbvG2hpj3pdqZ+uk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.EntityDamageRecordCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.EntityDamageRecordCollection.html",
+          "hash": "t1SD1p2o7iLo9FWSvULC894Ud8dO+42bR2m5ZNkNIBc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.EntityPopulationType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.EntityPopulationType.html",
+          "hash": "Vy+0R55AA9YMnB+J/zABVNBwMEJgTqAfJM27YVS+y4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.EntityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.EntityType.html",
+          "hash": "xY1HOvY6LMO9A2R45cKk+daNVIM8iweTte/nuvDvELY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ExplosionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ExplosionType.html",
+          "hash": "q2WExS5jozXt/QThFfGsqRe6bcHtR5ZPUhH2K7ibqIQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.FiringPattern.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.FiringPattern.html",
+          "hash": "s/weGHYcaVyaq8KwrwCtycws8wKDlU5we9E884p5YSM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ForceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ForceType.html",
+          "hash": "XvuTJ1fbHWyzeZ88X5PrgKotgOGOkRErNLWl24LkGiY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Formation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Formation.html",
+          "hash": "Pt7j3QHHAhxYc31K1poNw+NTnPOoUkp9g5LFbDs8c7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Game.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Game.html",
+          "hash": "yfUEF1SsrZplrKQO2ek6H3pBPjEpovl3uUFEbewA7dk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.GameVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.GameVersion.html",
+          "hash": "z/ZB6x/OeaJjjRY1C7rC3fglWOyqXZO6ux4fUTqOYPs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.GameVersionNotSupportedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.GameVersionNotSupportedException.html",
+          "hash": "58N/HW7sSU50my/5tBrwULOHNK/61pNrSs0kPp+WmUI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.GameplayCamera.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.GameplayCamera.html",
+          "hash": "wWpI20zjHRFBaMqqhEKiuUTrjava385EIcj/Gh8vYa4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Gender.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Gender.html",
+          "hash": "cfYFZnQJ+VZVCh1JldCTcMbc685MdVfVROeJ4aAbDV0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.HandlingData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.HandlingData.html",
+          "hash": "HIEucMm4X1Sh1NWm9yd/7rg9KwLvMGCdLDAMaPTwDa0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Helmet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Helmet.html",
+          "hash": "y0PbFstse/e+JUBYgzhOag1a2L6uu4/zH+jE5ZjGRVI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.IDeletable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.IDeletable.html",
+          "hash": "052Fqn9Pqnig1zt5zTR5s/4umbtfpqpPn598yestYEk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.IExistable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.IExistable.html",
+          "hash": "tb2JzIIZ5oxvgpS1rfgrMS/PxsCM7m/6lG+4/4yVgFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.IPedVariation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.IPedVariation.html",
+          "hash": "NJh5NyVDLtyUdHgq9ZaAoXXMmcnutBaM6J7y270C5v4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ISpatial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ISpatial.html",
+          "hash": "F1xmF/prByzCMIGl1gJ5WAn0GhdT3Grl2+tlhQmq7dE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.InputMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.InputMethod.html",
+          "hash": "1oTLPQWT/YDmi7uIjGUJ7mbMo3OlFDoDPJj+F9tdmZE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.InteriorInstance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.InteriorInstance.html",
+          "hash": "3wO3+WppKa08AqUi9k79nYLtToAo9L9Bir7chZQJOl0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.InteriorProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.InteriorProxy.html",
+          "hash": "MpffZQ4Dr1ZxkMqWSUzojkP+lm3/ARhLz5aAliO+/U8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.IntersectFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.IntersectFlags.html",
+          "hash": "kId8fZxtIIqKn/pAlpfoHaxjsXCapY/Sd8oeJKad/is="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.InvertAxisFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.InvertAxisFlags.html",
+          "hash": "KU9iFd+J6qckaWjpM90nzBpwBuCG0kQSKqDmv2CIZ00="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Language.html",
+          "hash": "sw5WoVzZzDsMAh/8BYeKq93aiJl8L6V8fzTMrVmG3Dk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.LeaveVehicleFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.LeaveVehicleFlags.html",
+          "hash": "DD5LU9EJmkf408hF+RN89JH6NI85zpG39uNkAsLFaCA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.LicensePlateStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.LicensePlateStyle.html",
+          "hash": "WjGhFgqXsE11HQLCE7w2fe8vD325rSGz7jmGnSavGFo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.LicensePlateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.LicensePlateType.html",
+          "hash": "0xrwPe+Qx2vSDoapnGSr6mTm4c/5UedSbB1tuX1A334="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.MarkerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.MarkerType.html",
+          "hash": "c3AivWfrjJ6Gw4cCOVb5EaWz8YAttKWZoJR30GNskZ4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.MaterialHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.MaterialHash.html",
+          "hash": "1E6N5dwz51Hke9dhcI8Gjn0wHqiqub88SJKSeQCr4dM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Math.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Math.Matrix.html",
+          "hash": "we0jC4S/xfpCYPMY1lcUU7BM5kDFQo27FbxgLe8UPUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Math.Quaternion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Math.Quaternion.html",
+          "hash": "dDEDTeS0ivVjj8I7DzCncx23l5h6LJQtTxSe/itWX74="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Math.Vector2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Math.Vector2.html",
+          "hash": "MMDlRGuGxZws/fN3+kBDd9oODvltQHdFLEos1QZsN/4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Math.Vector3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Math.Vector3.html",
+          "hash": "kQhZ6YIblcuAG8dj++ad/ZIp8A5rHRsoXFB4e63ucnA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Math.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Math.html",
+          "hash": "zNVyVo8Q+YfSu5x0+IY9KvynMnIIXRzZDnxTvN/+T5k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.MeasurementSystem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.MeasurementSystem.html",
+          "hash": "YArRB0OXZOhpPgr7u2ppcVInxDAttrbGGJRE9OReoBM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Model.html",
+          "hash": "colxQuJI7g8kNAmkCa54GHR1RNfHwCWeOVzGBr5wzLg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Native.Function.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Native.Function.html",
+          "hash": "rAWCE/BAnq3J3xX7HpArd2oiaywD7uc6yEtOL4BIGKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Native.GlobalVariable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Native.GlobalVariable.html",
+          "hash": "rnp3EegK3tt0Lu+xgiXU+5MPjMHjVa0TrT6ZQOjyZao="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Native.Hash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Native.Hash.html",
+          "hash": "ewCwf6pCe3Qf/z/UmJoEmEO93N4QbPY3XlLBPEcCkxY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Native.INativeValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Native.INativeValue.html",
+          "hash": "TxbYt3hBgpO5coi9S/3l1E+kraPOhx1r8sSWg+dGVsw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Native.InputArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Native.InputArgument.html",
+          "hash": "2gr3JQHgh+fEEChskFkpk/03v04Fai6BxAdz4ze2ys0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Native.OutputArgument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Native.OutputArgument.html",
+          "hash": "4JEEvzuG4hA5J6Pk52Ates9DkIENcKhQPfnmts27EL8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Native.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Native.html",
+          "hash": "2W0vPGDsl8+eEahQL6GFMLOBUfuAnEPMTqcOIXBY43Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ActivePoseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ActivePoseHelper.html",
+          "hash": "U2AnMFR5fxxagdD+Jl8X8TsjPr3rq6FHoIuGIOzgyCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.AdaptiveMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.AdaptiveMode.html",
+          "hash": "RtTws+6AiyAZa3rIIbip/N9ZLQUBR7NZRfBYXwm7thg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.AnimPoseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.AnimPoseHelper.html",
+          "hash": "ah1y1Tf3btAQdktpdtpDsWinx3L5AmmIjFZOhq+W9sk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.AnimSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.AnimSource.html",
+          "hash": "e/D0tu+hyPl9Bgd9uzNLZWyJ4IpmPJDdcnkdfI1664U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ApplyBulletImpulseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ApplyBulletImpulseHelper.html",
+          "hash": "8A0kTAIY9EZMNZH1XUlj390ip476yo2AWHxnLOtKn0I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ApplyImpulseHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ApplyImpulseHelper.html",
+          "hash": "bCdZPHAZuMUaMI64cdvgNmcPyfyqjlVHGT5qPhFxscU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ArmDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ArmDirection.html",
+          "hash": "mKfBas0gs46+7+ynRO/qyqiCiK36OLgBX3iNpHc+znA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ArmsWindmillAdaptiveHelper.html",
+          "hash": "m+HHuY+0suPAwlXL/lBNTv3EZI+m1HV+4idxkWKTuI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ArmsWindmillHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ArmsWindmillHelper.html",
+          "hash": "vfnr00M7IYPj//PqSBYR8bEuZppzZhdLvdKVz9yE+eo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.BalancerCollisionsReactionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.BalancerCollisionsReactionHelper.html",
+          "hash": "vtC4LBpjH3GSn3RW3o4HmNrYYMM1siRAMp/Nu7JwX3M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.BodyBalanceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.BodyBalanceHelper.html",
+          "hash": "+VlkBKByb/NTMPhGWp8HQ0h+WeVmTpHOMebK+MFTlBA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.BodyFoetalHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.BodyFoetalHelper.html",
+          "hash": "AP++I01dLtG5tK4aLyEnysWwv63xqFSl4YxN6QFRM/U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.BodyRelaxHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.BodyRelaxHelper.html",
+          "hash": "zzOgXt8TuNV1FR3nVXGI2+uyWKqbvgFueeV0EJTm02w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.BodyRollUpHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.BodyRollUpHelper.html",
+          "hash": "Q7TXwk4EvQbgrMm+DqCbSXps9RcTpKFSw+bf7vtEyjs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.BodyWritheHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.BodyWritheHelper.html",
+          "hash": "kfaKtNFmdYz7k46GsozSztApPy0gIdbZMRu2RpQKgqg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.BraceForImpactHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.BraceForImpactHelper.html",
+          "hash": "5rVDHB+97yT8CBfqm/MboKtAJoqnF90bu7LjMoYzPG4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.BuoyancyHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.BuoyancyHelper.html",
+          "hash": "yKLNLabNdr1bZPJhk/FNhXWFECrN4lgEOlb0+F3JNeM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.CarriedHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.CarriedHelper.html",
+          "hash": "/GIokvryJxvDcSevynqTqoFRjpiP75c+shxYKpUWnBs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.CatchFallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.CatchFallHelper.html",
+          "hash": "St6asIl5n7/neqoCRWoEoBccKzT9Xy0l8/8ha7KTDMA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureBalanceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureBalanceHelper.html",
+          "hash": "kMEWsuaCGU2yGQjU5rEjBCJzrURDddJHXqt4hG3ttEA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureBalanceResetHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureBalanceResetHelper.html",
+          "hash": "HIvr3BAwqpTSTwT1+kyEw7tfxKy0kD5OYpkvffOT7GI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureBulletsExtraHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureBulletsExtraHelper.html",
+          "hash": "PWHCwwp7FeWn7QBDyumdA7TSKh+Q4vPnMz3B/FvnfhQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureBulletsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureBulletsHelper.html",
+          "hash": "OUJh1JpT23tDiXESv7EXC2kV7kcLViDqdroV5k3IhBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureConstraintsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureConstraintsHelper.html",
+          "hash": "LZXfFYO9bj27YeaSsjzz4yAFmDXh+bl22lMTum6L6Mw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureLimitsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureLimitsHelper.html",
+          "hash": "Ciy1fE4zxUvsmQ1AuQj2qRhMz7dShV5f9JOstX/1puU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureSelfAvoidanceHelper.html",
+          "hash": "dpb5N1+Fx3ungHLj68EbIyfk6wHlH9FASmOtWl+MUR4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureShotInjuredArmHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureShotInjuredArmHelper.html",
+          "hash": "Egj03niYVEVMA1El2wKQb6XglQVfJlvtONRO04fA1Ec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureShotInjuredLegHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureShotInjuredLegHelper.html",
+          "hash": "dIWhdjsPXgM+10A5ZZuZ/JCdsv73+HiN0GgLoJOLrjA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ConfigureSoftLimitHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ConfigureSoftLimitHelper.html",
+          "hash": "8wF38S8zj9w6qXjfixGTqRYGxl6VIt/xcJEEOXN36Jk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.CustomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.CustomHelper.html",
+          "hash": "vQV95foHMYOPtGWZyISGLFhtlQV2n8QxVxhhSkSH0Vs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.DangleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.DangleHelper.html",
+          "hash": "L3kycIZrt6+rpYX7KLugdG09qOyew+NcM5Zh5+35edg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.DefineAttachedObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.DefineAttachedObjectHelper.html",
+          "hash": "SPk+iXzA8xgTLTH7cwU0dDN5zFyA343HSti8DasuLAo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ElectrocuteHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ElectrocuteHelper.html",
+          "hash": "6KfnK9+MMf7RM1h5pOlWuzWoPux2229/pFgQrs2x/EI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.Euphoria.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.Euphoria.html",
+          "hash": "LkRBGCn/UUYUD6DJWu3L/DN1FBFqBWxtYyg1QfEm1qQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.FallOverWallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.FallOverWallHelper.html",
+          "hash": "2W7ct5Z1sTDScTyo25vNszYK0J0GB3tJyowI2hzQ/ag="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.FallType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.FallType.html",
+          "hash": "QX8dWqF+BOCH1YOAIwOnBBa9PIc9KKFEQ9TZnzJD/tM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.FireWeaponHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.FireWeaponHelper.html",
+          "hash": "5p36bcVPmJCH9TRNev2yrTguLrpgO+5utmUtyFd6Yu8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ForceLeanInDirectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ForceLeanInDirectionHelper.html",
+          "hash": "fQeoAguORUCFHt9fS8cPIWxYdqHWeV20L4XCmULArCI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ForceLeanRandomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ForceLeanRandomHelper.html",
+          "hash": "dz+xgBRi9rO8l21oA4zkwsLmt2bpS6Bu5VRTL0RVvPA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ForceLeanToPositionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ForceLeanToPositionHelper.html",
+          "hash": "ZcA7murR35XXDI2L/KdFszrKodcsnbBVuPlJBkPGj24="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ForceLeanTowardsObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ForceLeanTowardsObjectHelper.html",
+          "hash": "DesOUxzKStQEDvpDOrF5TVkxrJcmWgyV4eNaxYWGGIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ForceToBodyPartHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ForceToBodyPartHelper.html",
+          "hash": "W5vO5ROwnodvG2sSjbENkd8RrLoRzTHvuiyXQk3GoHw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.GrabHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.GrabHelper.html",
+          "hash": "n9yyFpk2V142QHqjvbNqCZP2LPmZGFjTbag3XSYv8ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.Hand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.Hand.html",
+          "hash": "Wms6pFd03t0IwNnZfWEze31o/wk3pLYZBqbm63k7U6I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.HeadLookHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.HeadLookHelper.html",
+          "hash": "VutbMolzyfbJ5Cb0L47OeCBye3OxGYTVAvRpe0KPWek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.HighFallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.HighFallHelper.html",
+          "hash": "eLV2/ulCTB6Lfd8tCz3k7W6EySbRhUPxDhNkFpmmfS8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.HipsLeanInDirectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.HipsLeanInDirectionHelper.html",
+          "hash": "R4SQqHCrnbExIyQeQiZe2BZ41NHFAnTcs1huFhsPpZc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.HipsLeanRandomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.HipsLeanRandomHelper.html",
+          "hash": "DrQ0Nco9fCmmhzPnuyhuWaOx+4J9LRlVlE874svXv3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.HipsLeanToPositionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.HipsLeanToPositionHelper.html",
+          "hash": "XeId5HFG4Gm+IRdjEPgx+xiSHfA+D63fHBzE12Wkiq0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.HipsLeanTowardsObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.HipsLeanTowardsObjectHelper.html",
+          "hash": "Tn0bIvxcoB9s9fqYouqHwjlLJ5KH6A6gmK4pB/2kEeg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.IncomingTransformsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.IncomingTransformsHelper.html",
+          "hash": "X+TfJZHcPrpqfP4d9d9e0CaNOxcxGQMrhmm0xevyhvo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.InjuredOnGroundHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.InjuredOnGroundHelper.html",
+          "hash": "jz+0J8S0VsaR9KZ6zJ2GwF+VHWVQylXIGu0SXu4MfgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.LeanInDirectionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.LeanInDirectionHelper.html",
+          "hash": "/CGluM4kTD7XmGbj+iXUGI+XfS1snh1Iuj6/ul1I2Jg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.LeanRandomHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.LeanRandomHelper.html",
+          "hash": "yPIO7JMKoN8swfR4X8QqkrQII1bWydH3+ULoMt6m7c0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.LeanToPositionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.LeanToPositionHelper.html",
+          "hash": "a5RrYM+NNgRFNXfCgFWzl10fC6hr8OPN6tXttyVmHWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.LeanTowardsObjectHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.LeanTowardsObjectHelper.html",
+          "hash": "q0hyKCpWuxM0yUXjo+kprSnrEVYdqjzRoX3DPi5l8f0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.Message.html",
+          "hash": "PNPBGYySHS3eIMlaWH412VG/V719OT9kH6EMfccMJa8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.MirrorMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.MirrorMode.html",
+          "hash": "LUVulkWSlz2+wU83kFVxVTANzlXHq3YaOa5bJhfqVEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.OnFireHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.OnFireHelper.html",
+          "hash": "T4nyw9nvV/Xp+inuJz+SSgxzokcDY6VcyAZTKUdbgRI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.PedalLegsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.PedalLegsHelper.html",
+          "hash": "mdwTGGyGFq45KLygddzPOcxv1mYjwSy6Xy4b1Rztpgw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.PointArmHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.PointArmHelper.html",
+          "hash": "6zsOznRkjhM37/pre+AhKsmSQwmrdsTzI9MEa3kM2Vo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.PointGunExtraHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.PointGunExtraHelper.html",
+          "hash": "Obyd5C05ieRkRMJwEzjdSQlyjYaqWacIRPYqoqd92Po="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.PointGunHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.PointGunHelper.html",
+          "hash": "roPLXgUWBOMulh3nprGiBMZCk0fS8e80Dz+xh3WucVw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.RbTwistAxis.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.RbTwistAxis.html",
+          "hash": "HTAuIbDIicK0OM84H3+cQp3JYKc5jNUkaNt0t6UhhIY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.RegisterWeaponHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.RegisterWeaponHelper.html",
+          "hash": "+Drl2wauIADxPULgxC9LPu8/AHJsnTeU680la8EeEHM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.RollDownStairsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.RollDownStairsHelper.html",
+          "hash": "qcIYNdRsaUgzEYD3e7SgGOQR93lSeVBC6jYxOd6i0+s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetCharacterCollisionsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetCharacterCollisionsHelper.html",
+          "hash": "Y+9PYqPtN7Ca0Msg17PcBgY8DOkKMtMcf4FQpv2iGAg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetCharacterDampingHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetCharacterDampingHelper.html",
+          "hash": "qm/57Qg06EE3RyDSTDGJQTNWgcq3wXWm2iY6/5TCgPk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetCharacterHealthHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetCharacterHealthHelper.html",
+          "hash": "87DQchCNrzKqxSUgYEtmFdP9bNhgUxnCp/4ivziT+Ro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetCharacterStrengthHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetCharacterStrengthHelper.html",
+          "hash": "CHbxEll8X2DjVkribu9UePtAS5uOiNJdjQJPskpSknI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetCharacterUnderwaterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetCharacterUnderwaterHelper.html",
+          "hash": "Bnw2DofvqBKsMJlyfSlzVKTibVxfEJ2ZFyoL/MfojEE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetFallingReactionHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetFallingReactionHelper.html",
+          "hash": "yGRTLYAjDCk/Gt1gutq0EaDsZCpW/kCm1Pgzmsbh8Y4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetFrictionScaleHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetFrictionScaleHelper.html",
+          "hash": "++HCcttdy5aPGUE74moh/mQvz1eR3K338oO3pbLDRII="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetMuscleStiffnessHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetMuscleStiffnessHelper.html",
+          "hash": "f+D8c75g5Hq9Zc5/1lu3ONjyLhx/0XvIbZOqP37tmlc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetStiffnessHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetStiffnessHelper.html",
+          "hash": "ihtsoGxtKuZEI88kbVTaLBqELdbK31AzlZmpQ49wqs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SetWeaponModeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SetWeaponModeHelper.html",
+          "hash": "M2HCCLvgskGy7Jsz572iH87E5gXJ3Eo/nUM021Kno1I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotConfigureArmsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotConfigureArmsHelper.html",
+          "hash": "aD4PgHE1MhBlak7gRf9aKcKJFp7BdIbCQ9YpJO3ZY5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotFallToKneesHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotFallToKneesHelper.html",
+          "hash": "6kg4f1AN+In0L1faj3CkFmbQ3JBIyNJ0QC1JpthUQIw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotFromBehindHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotFromBehindHelper.html",
+          "hash": "rnxuS9eSnGLCUaw+z/DgmSq3SbJOTp7dpKFTLJxI/NM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotHeadLookHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotHeadLookHelper.html",
+          "hash": "d4uyAqx4Lx6/ue2yYzS8Qqi8Or5lUqEP7CFGNvkCi3Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotHelper.html",
+          "hash": "h1+yxSDR/1H+Jpl0INqKkCIS5r6gCHy83Y4UVKtGTJE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotInGutsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotInGutsHelper.html",
+          "hash": "cK8kJoB1F0TRXThzJNN4WmMwfqL1w4LXC+O/pGaV5zA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotNewBulletHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotNewBulletHelper.html",
+          "hash": "WIessv2W/b41Bey/wCP1bBUTlXv1twRMlf9r6bf2drA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotRelaxHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotRelaxHelper.html",
+          "hash": "K01G3BunPg7zA7+zii/2IHz7DWEF5fSIYe9H647AJUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotShockSpinHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotShockSpinHelper.html",
+          "hash": "ofAAaSIbWpayAPmKlZEOGOZKoB2BRGP6a141a5VFUB4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.ShotSnapHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.ShotSnapHelper.html",
+          "hash": "+6Ti8d/ose+j5XJoiguxEUR3PsPdfAOYMVU21h85k8w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.SmartFallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.SmartFallHelper.html",
+          "hash": "uW1SbRtfcZpwHBwb3Rb9qZWpC8Jc0ErKvZ6SmlvJurQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.StaggerFallHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.StaggerFallHelper.html",
+          "hash": "qJMWPMR4IWVXGWg2mmpa/gfD4ST3ya9X5xLmoYHZqDY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.StayUprightHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.StayUprightHelper.html",
+          "hash": "b4jE9vj4q+YdIUz/8u/HVNAcsOjsWGeiPgGIs8Ow/FU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.StopAllBehaviorsHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.StopAllBehaviorsHelper.html",
+          "hash": "SabNSUScSA3OT6bqc7M7hpeiQSa5+k6EdZSzYPrq8CI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.Synchroisation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.Synchroisation.html",
+          "hash": "kWd+Eoq5h6fvVzj5fLHMUgJl0qBO3UAH3Yuu0aEEm3Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.TeeterHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.TeeterHelper.html",
+          "hash": "7XlN/QTuAwKZYkvGQ/MQcUKF5f9p7qYQG06yajGOw7c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.TorqueFilterMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.TorqueFilterMode.html",
+          "hash": "gHiS6iLtLq4M8xCIcTdfYnUr8IJ+nZNF988ebQVtrbY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.TorqueMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.TorqueMode.html",
+          "hash": "p+mU9v+1++nNDnm/B5pUO8hifNhX00c7oxVwHOxLGaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.TorqueSpinMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.TorqueSpinMode.html",
+          "hash": "BRVrraDFPG3VqUd7xuHf3lhXMLRrNvL7i4SwvEaVsCs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.TurnType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.TurnType.html",
+          "hash": "6J2ncMDo71ij0ax5DAtVWKxLK9yFvypGIwIfk3f/D7M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.UpperBodyFlinchHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.UpperBodyFlinchHelper.html",
+          "hash": "pnkq4Qp09LIhsmtx5YduoPlzDizz7WnCdUQ6A8R1kTc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.WeaponMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.WeaponMode.html",
+          "hash": "70HnbHw6o3x+XlaC6Y1EqcqR9ytyuBg+zMagr3AV5kM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.YankedHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.YankedHelper.html",
+          "hash": "b297nisttd3+gIBYBcEeeAeRMIfsolQ8NYpDh1+9QYg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.NaturalMotion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.NaturalMotion.html",
+          "hash": "GSLNZr4r2VTy2D/DfvDGzMJj/4VjiMUaI9EkXpgZPGA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ParachuteLandingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ParachuteLandingType.html",
+          "hash": "G8ERx2I9RmJa9aPKeJjV7uvNJCSiaHKGIVlthhoc4Jw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ParachuteState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ParachuteState.html",
+          "hash": "DEmNf+kQ/qx1h8Xc7pFrfz/c/dpX/WXYgG+Y4jVkYRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ParachuteTint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ParachuteTint.html",
+          "hash": "KO/Lfs+Tf5/Q3J9t/2JZHv/AVa6hxeoulSk1tHwqcgQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ParticleEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ParticleEffect.html",
+          "hash": "L0hXkpeMjrf83t1l2H63V4pFjVGykeS9WXXrFKTBBoY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ParticleEffectAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ParticleEffectAsset.html",
+          "hash": "jdHIV+3XzOxsWfZ62JT741aTtUe0KQla519aW15RIak="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Ped.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Ped.html",
+          "hash": "1Fy5UkhjEjBCPkKLpdpozE2j1AnZ7tA/52zoPPx3Ws0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedBone.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedBone.html",
+          "hash": "oxhWQIhXTjamHoIiuNzHUICaRhv8wlEpgoAk9sxPXiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedBoneCollection.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedBoneCollection.Enumerator.html",
+          "hash": "puSR/KPIGS0FVH3KZ/cj35rlVFgin4M+wPf7O+p2GRU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedBoneCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedBoneCollection.html",
+          "hash": "L6Pdw1vXy/EEj3//1vZc7ZgI6PjuY8IJc7gHrxvfmPE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedComponent.html",
+          "hash": "AHM5Hp9fjFPFeGUabr6xzONMC6HBnhk8BjNVoABAngo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedComponentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedComponentType.html",
+          "hash": "BXW5kgqMNWiP1LtXc9y3Bs/cr8cNQ1N384Lnyyvzi1Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedGroup.Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedGroup.Enumerator.html",
+          "hash": "5ybW9l03QebIGLSjBjaKZRFtb8w70arRjl+Pp8cwcXk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedGroup.html",
+          "hash": "FhRvTf+AEN6+u+jeUaMgtVHR0OL2d8OlJJg/eDDXyEg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedHash.html",
+          "hash": "elmj6wgO+i4TAd9wQEUB1EEhMz0vKCawDI1yQFNnZ9U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedProp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedProp.html",
+          "hash": "WkU/7omkKpKvjhgyhq5ZRapyJeUNZbiYkCb1ssAbHz8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PedPropType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PedPropType.html",
+          "hash": "RWV+xzh5odNCp15iaeiU5brvUHtnRlvh5DH+uE5+BtY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Pickup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Pickup.html",
+          "hash": "Qk9JqxXcxL0v6AURayJurzct1GoMSusl56EfA9StHOc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PickupType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PickupType.html",
+          "hash": "2Q4sOESff6ctGyEiP4ow6sHyDarNgBsAcDhRE8mwiDo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Player.html",
+          "hash": "Q0UomeYRsjMlmei3NwnvGJSZJV+KP6uDTFK1fX27r6U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PlayerTargetingMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PlayerTargetingMode.html",
+          "hash": "OfYwYEgsuMAYXqYrtYFNpGoe8pEr0oz7O2yBnMOZbOY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.PoolObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.PoolObject.html",
+          "hash": "Wfxd//3Or9cFNrt6FdK+owfnY1hK/3V4w1pBL2Vinyw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Projectile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Projectile.html",
+          "hash": "7Ee61y0dkjrw9Rhq0oZqiT4sdAlvEFKBzMQ4FIa8xCw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Prop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Prop.html",
+          "hash": "VrvXXMZR+ULYrsOY7EBMzl64bxMBZqBvMqJsbyvoaFE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.RadioStation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.RadioStation.html",
+          "hash": "0sUhMf9CrTSyVWSaxOqcIuGHIXatmd/ryVn4EwzUhFw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.RagdollType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.RagdollType.html",
+          "hash": "rTwTXwfEa3PCO1ESa8/5ZjNTSRfH4xEP1XLqpE5wBV0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.RaycastResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.RaycastResult.html",
+          "hash": "xBOlchFYDcJYQARQwKMagiHvg9SAf/whSiw3uPH5P48="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Relationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Relationship.html",
+          "hash": "gkltj6TLx/d6N4wGImX92PdAf0YskBvQ58jgFWSIlAg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.RelationshipGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.RelationshipGroup.html",
+          "hash": "uldlc4sU9IxfTGT7w8ii/4hkSg4v+7+atMWF5dwzxms="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.RequireScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.RequireScript.html",
+          "hash": "Mb/FIFqJxrcDR4guGHAh77qPcdzhhHlF0ynVwkW8eps="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Rope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Rope.html",
+          "hash": "8i3sxHfTLt+uysi4WB7tgriVoKzp5pSSYa9eHpPuJK0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.RopeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.RopeType.html",
+          "hash": "Jnx77wLGAlcoPF6SZQR0GrQzBQqQU+bNb/bbxBAGjQ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Scaleform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Scaleform.html",
+          "hash": "gAo9dajNWHo+j9rb4jKCH5avTqKbJPMB0KPc7QCNMh0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ScaleformArgumentTXD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ScaleformArgumentTXD.html",
+          "hash": "n7obqdZWt54Z7oWW8Q5CdOzJRhMnWAr58qgMOIEjM2E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Script.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Script.html",
+          "hash": "nL8IaW3qa45OAMU47d/mpXGDmIntfaAAHw9UzvJf/6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ScriptAttributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ScriptAttributes.html",
+          "hash": "rawM/RUPuviG5VlYWFlhKKFPH3leZRaS5uh03nt03ZQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.ScriptSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.ScriptSettings.html",
+          "hash": "gw3e5qafC7Ohp+XeqNwVXUthBs60qqPVerptAKiMJDc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.SpeechModifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.SpeechModifier.html",
+          "hash": "NzrL704fsj1kmOIMjMavuXkh1Krzs2oA891dKOBRcoo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Style.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Style.html",
+          "hash": "/TxTWsnSVU2Kwa+XcHXWwkb6/Mtx3iNetjU/BX3GBJQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.TaskInvoker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.TaskInvoker.html",
+          "hash": "HnnVQkNxnqnQZ6aI39xejfQUkkuOwF2HHjJsfKWCI94="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.TaskSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.TaskSequence.html",
+          "hash": "9ocnzlUkO7NyBnsCbHyDrxEYdf8IRINdGTnksWFWZ5s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.Alignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.Alignment.html",
+          "hash": "lk+iNdEAfkyftSDxwMMRnNOI4VttdGAvI456cMxENQM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.ContainerElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.ContainerElement.html",
+          "hash": "2+BNlspkqOQhtOGZzSpZP3RAW2MRb9UDjTB2UQ3f3e0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.CursorSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.CursorSprite.html",
+          "hash": "jIDOqoJBPr+oSXuAIyPLwSHxXR9uVYj0eM8BRUzkN2s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.CustomSprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.CustomSprite.html",
+          "hash": "lXYsAaYkrNzVQO7PNZGu+oPoB0+/cEqcF1wgJKAb3QI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.Font.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.Font.html",
+          "hash": "fn+Bi9t9al8sINkbVo6YwCSn6b7FEDFgXFzLXiAiTcc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.Hud.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.Hud.html",
+          "hash": "JUWuWfNuxTNtiLY39KWsQfibxfnwuO0rjvY3KQmYNjc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.HudComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.HudComponent.html",
+          "hash": "qNFCl0S7qjrCGzeNvpoYD7cBpoqUv+YZhgqujEnj5zk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.IElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.IElement.html",
+          "hash": "hLdQ7bG359F8xdWtt5vpcsYpTOqo6w8sjvTn35Bo1P8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.ISpriteElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.ISpriteElement.html",
+          "hash": "8gFbi05M16c3oVFc16CSeqVbwtPfmj0GX71c2wo+cRw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.LoadingPrompt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.LoadingPrompt.html",
+          "hash": "MGEmgU3TszXgF5FqzexTxfwV1hF4LehIdNx326AbAeI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.LoadingSpinnerType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.LoadingSpinnerType.html",
+          "hash": "We4z5pOqVzTNKUAuWwwVud+ACncQOIvWS2XxswzCbNE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.Notification.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.Notification.html",
+          "hash": "DBrWm+NeeCbFYLFO6kQ6ovVucuPR0vw+2pcAkF5vimA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.NotificationIcon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.NotificationIcon.html",
+          "hash": "ILKTnDbSUVRDVT+/6gEHYpPbTRYVpG7WyCFOyA10kT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.Screen.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.Screen.html",
+          "hash": "arFbzVnO0+gIfysuqS3VJ8EuPJMeJl07eTNJ1eTHodo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.ScreenEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.ScreenEffect.html",
+          "hash": "7PAOAES8Z8kqiOPJYyuFmQgqUGIART9ARNsaaCqB03A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.Sprite.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.Sprite.html",
+          "hash": "nTGWg+AMpQ/pcDGVy6iomd8ZvzUs+oedRqXOZxgf3oE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.TextElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.TextElement.html",
+          "hash": "jB9DcNcnTnlhFx0uffq7P026oPhvJsEignDKpXExXZU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.UI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.UI.html",
+          "hash": "S6vNegeLLlhZ94Q/lwmZM40c215a2riwgTNGz5PhNzk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Vehicle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Vehicle.html",
+          "hash": "F9eC7MlZiirOQ2KUw94fQlVRoGsdJPdBvp/34Evm9X0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleClass.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleClass.html",
+          "hash": "lD6MRCfhLxQ/o+UVXO1eTC+Pd6KiuYepKLPnEwKxA50="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleColor.html",
+          "hash": "BXKUY15s0JszKj+/s49k1vxDe/FAoprct5DP4Z/uAgU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleDoor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleDoor.html",
+          "hash": "WrqFDlyUeOnggu8Lt2OXaXtCsqQe/1ywcXpJbafL9Ks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleDoorCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleDoorCollection.html",
+          "hash": "W0eJ3y4pmTBOQFjf+t9UOklLJGAGvIh0nO1IFwcrbdA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleDoorIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleDoorIndex.html",
+          "hash": "l6/l+rvmmlLRYkxgHO9dXtzs6iPHNVgQMcvDUYCced0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleDrivingFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleDrivingFlags.html",
+          "hash": "bqYPTE4Y+O3loabhSq/9h9HJmz2yOJ+GkOHyf7pXeYU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleHash.html",
+          "hash": "vNVb/gfg+EQjTopqMq/DabaogokwL0lk0Y6WE58oMB8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleLandingGearState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleLandingGearState.html",
+          "hash": "F+Ev5rm2I7kSpOaOoLjXfIO9jebtfGra+hCL+wA/yEg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleLockStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleLockStatus.html",
+          "hash": "1LSIi4QLK40R8gHp85gf/u3BTA0qwjukadzynDmtbFk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleMod.html",
+          "hash": "8TjvWErQk73g58wyqp0Kwtvp3NSPR4E+F4OVsXJUlsw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleModCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleModCollection.html",
+          "hash": "u03HOEdG2l2MwXclyIoFNgWVmMgx0ALK7QnpXubGE/I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleModType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleModType.html",
+          "hash": "o6OSxD5pdigh8mok/msS5asfsFWSnyGRrM96sNgptwQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleNeonLight.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleNeonLight.html",
+          "hash": "/DxFVNNN0/3jPyl1lQPZZK0K6U7MqVFPXJYudp1rstw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleRoofState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleRoofState.html",
+          "hash": "HXxkKNKwW1A0gkQHjKFD2XsbytDKC1gYrJWemfXD4xw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleSeat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleSeat.html",
+          "hash": "2d+50cECCF4YpUpbEmKrMC3XS9MiHRBA1huJ38W1/g8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleToggleMod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleToggleMod.html",
+          "hash": "le95Mqj9mBHbUOsho9EExtuDgcN30G5Q1ypg38+sS5M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleToggleModType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleToggleModType.html",
+          "hash": "FjRHRdibdSVKgA+c/UG9UmZ36VrpxVjpelyiCv0lOzc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleType.html",
+          "hash": "RvMsiaIwDvd+jwkPqfTpFRIbJgpyoEi9RCLcWNUgvlo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWeaponHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWeaponHash.html",
+          "hash": "GKmQwFOTrO9aZE/TMrzmPy1+v5YYIRgvTpbhFb17fxI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWheel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWheel.html",
+          "hash": "bpt2UD2lRRohQyxqVhn6DWj4LlQkBfP7cTIAoCHu4hE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWheelBoneId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWheelBoneId.html",
+          "hash": "GOeDCqm2SSLlS1g9jAtQjckE+ZvzUyiJmP8bvil0Wks="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWheelCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWheelCollection.html",
+          "hash": "MBi2YSidkR6F+zYwW4rXqtBHWVPFlwVbU8rXEpS2dg4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWheelType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWheelType.html",
+          "hash": "u/DA7QmFyp0rF4icJQlRdcrqDNANif7mIrr3FYTNyuY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWindow.html",
+          "hash": "G5t0b96Y6SHK6VOyoWestnNIRts0obRPll+jUfZEY1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWindowCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWindowCollection.html",
+          "hash": "y2gH5mhEKi6m37P20Jr65KcrA757CDDzkA+Kopl0g4c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWindowIndex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWindowIndex.html",
+          "hash": "ZbAM8flFYcl2M7BtxYJQUqGsujTOnZ/vSYlPR3epUTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.VehicleWindowTint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.VehicleWindowTint.html",
+          "hash": "LMu6VSIH77xzxScv8pgdSYzjqaYjWYeMU5whVbRrdZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Weapon.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Weapon.html",
+          "hash": "jUtYdrJ7VNfPwOV7Gez5w2fZNoZpZzz8X2YxAWW87x8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponAsset.html",
+          "hash": "pOqQfs4RQ0cqrmq28J45ODzk4fpbDnswbRuUrR4xGsM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponAttachmentPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponAttachmentPoint.html",
+          "hash": "lDfpFJ9Y8dnyjHW5We7/yJNLaHE23hfq9MNNQ2olS/c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponCollection.html",
+          "hash": "q7MN+/lnT4ugfksvrwMyltIJIMfRHILlM2EtPlV/wFc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponComponent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponComponent.html",
+          "hash": "VB94CBG0E+xLo1/P1CFEfxC6Gd1BUc7/MWGJvDiD5OA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponComponentCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponComponentCollection.html",
+          "hash": "AW6sKibZ6mGLePLQF8240xSl/UW/nOVNdYLkgbMYng8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponComponentHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponComponentHash.html",
+          "hash": "dG8OskMvCRT/W1bQygLbO/TJgwWCiGmJfbuWGDg3uOo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponGroup.html",
+          "hash": "xyJHvBGKQvRBG5CCgWlHgwb9KDCQof6spAo7/OvORm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponHash.html",
+          "hash": "lkY5aWohex43R/fnwKKul1wgvBTcKiPZhnl1lud/0ho="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WeaponTint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WeaponTint.html",
+          "hash": "w7zHRC/tGxOncwbk1+mPrQYPh9PqZcIcw1ozGvnXpMQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.Weather.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.Weather.html",
+          "hash": "az2Ju7kVgKHB0vYuad9VFgLEyAAtaboeF2m3H377CSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.WindowTitle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.WindowTitle.html",
+          "hash": "7DNO2rGj/EKkbDHDUs/8KCGczCxvkvcDFSpQzH6A6xI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.World.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.World.html",
+          "hash": "1z/fKUDR1B9353eWjZKGurZ8OyWQoY77lSLfP3v4ZOw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/shvdn/GTA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/GTA.html",
+          "hash": "wICBxzxB796c+STUrTaBIPskmNwqNgJaAbIoa7mvmqM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/shvdn/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "SHVDN/toc.html",
+          "hash": "7pnkjwWI1txDf24j+0uN1njAFwLWXAMaj4IF0EBHLS4="
         }
       },
       "is_incremental": false,
@@ -612,7 +3864,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "IZVcaCvkW13AieUzohB67bBaEFumWzbslZp8aqQdEc8="
+          "hash": "qYAZREjhXWSo3cu+caNiCT4lhrqXp1o86QbNIfrcgFU="
         }
       },
       "is_incremental": false,
@@ -622,25 +3874,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 46,
-          "skipped_file_count": 0
+          "total_file_count": 316,
+          "skipped_file_count": 316
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

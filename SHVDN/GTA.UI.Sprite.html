@@ -1,0 +1,777 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Sprite
+   | RageCoop resource documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Sprite
+   | RageCoop resource documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="GTA.UI.Sprite">
+  
+  
+  <h1 id="GTA_UI_Sprite" data-uid="GTA.UI.Sprite" class="text-break">Class Sprite
+  </h1>
+  <div class="markdown level0 summary"><p>A sprite element using a built-in texture.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Sprite</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="GTA.UI.ISpriteElement.html">ISpriteElement</a></div>
+    <div><a class="xref" href="GTA.UI.IElement.html">IElement</a></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="GTA.UI.html">GTA.UI</a></h6>
+  <h6><strong>Assembly</strong>: ScriptHookVDotNet3.dll</h6>
+  <h5 id="GTA_UI_Sprite_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class Sprite : ISpriteElement, IElement, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite__ctor_System_String_System_String_System_Drawing_SizeF_System_Drawing_PointF_.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.%23ctor(System.String%2CSystem.String%2CSystem.Drawing.SizeF%2CSystem.Drawing.PointF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L27">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite__ctor_" data-uid="GTA.UI.Sprite.#ctor*"></a>
+  <h4 id="GTA_UI_Sprite__ctor_System_String_System_String_System_Drawing_SizeF_System_Drawing_PointF_" data-uid="GTA.UI.Sprite.#ctor(System.String,System.String,System.Drawing.SizeF,System.Drawing.PointF)">Sprite(String, String, SizeF, PointF)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> class used for drawing in game textures on the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sprite(string textureDict, string textureName, SizeF size, PointF position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">textureDict</span></td>
+        <td><p>The Texture dictionary where the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> is stored (the *.ytd file).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">textureName</span></td>
+        <td><p>Name of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> inside the Texture dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Size">Size</a> of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Position">Position</a> on screen where to draw the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite__ctor_System_String_System_String_System_Drawing_SizeF_System_Drawing_PointF_System_Drawing_Color_.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.%23ctor(System.String%2CSystem.String%2CSystem.Drawing.SizeF%2CSystem.Drawing.PointF%2CSystem.Drawing.Color)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L39">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite__ctor_" data-uid="GTA.UI.Sprite.#ctor*"></a>
+  <h4 id="GTA_UI_Sprite__ctor_System_String_System_String_System_Drawing_SizeF_System_Drawing_PointF_System_Drawing_Color_" data-uid="GTA.UI.Sprite.#ctor(System.String,System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color)">Sprite(String, String, SizeF, PointF, Color)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> class used for drawing in game textures on the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sprite(string textureDict, string textureName, SizeF size, PointF position, Color color)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">textureDict</span></td>
+        <td><p>The Texture dictionary where the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> is stored (the *.ytd file).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">textureName</span></td>
+        <td><p>Name of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> inside the Texture dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Size">Size</a> of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Position">Position</a> on screen where to draw the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Color">Color</a> used to draw the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite__ctor_System_String_System_String_System_Drawing_SizeF_System_Drawing_PointF_System_Drawing_Color_System_Single_.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.%23ctor(System.String%2CSystem.String%2CSystem.Drawing.SizeF%2CSystem.Drawing.PointF%2CSystem.Drawing.Color%2CSystem.Single)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L52">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite__ctor_" data-uid="GTA.UI.Sprite.#ctor*"></a>
+  <h4 id="GTA_UI_Sprite__ctor_System_String_System_String_System_Drawing_SizeF_System_Drawing_PointF_System_Drawing_Color_System_Single_" data-uid="GTA.UI.Sprite.#ctor(System.String,System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single)">Sprite(String, String, SizeF, PointF, Color, Single)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> class used for drawing in game textures on the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sprite(string textureDict, string textureName, SizeF size, PointF position, Color color, float rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">textureDict</span></td>
+        <td><p>The Texture dictionary where the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> is stored (the *.ytd file).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">textureName</span></td>
+        <td><p>Name of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> inside the Texture dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Size">Size</a> of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Position">Position</a> on screen where to draw the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Color">Color</a> used to draw the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>Set the rotation to draw the sprite, measured in degrees, see also <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Rotation">Rotation</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite__ctor_System_String_System_String_System_Drawing_SizeF_System_Drawing_PointF_System_Drawing_Color_System_Single_System_Boolean_.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.%23ctor(System.String%2CSystem.String%2CSystem.Drawing.SizeF%2CSystem.Drawing.PointF%2CSystem.Drawing.Color%2CSystem.Single%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L66">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite__ctor_" data-uid="GTA.UI.Sprite.#ctor*"></a>
+  <h4 id="GTA_UI_Sprite__ctor_System_String_System_String_System_Drawing_SizeF_System_Drawing_PointF_System_Drawing_Color_System_Single_System_Boolean_" data-uid="GTA.UI.Sprite.#ctor(System.String,System.String,System.Drawing.SizeF,System.Drawing.PointF,System.Drawing.Color,System.Single,System.Boolean)">Sprite(String, String, SizeF, PointF, Color, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> class used for drawing in game textures on the screen.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Sprite(string textureDict, string textureName, SizeF size, PointF position, Color color, float rotation, bool centered)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">textureDict</span></td>
+        <td><p>The Texture dictionary where the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> is stored (the *.ytd file).</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">textureName</span></td>
+        <td><p>Name of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> inside the Texture dictionary.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Size">Size</a> of the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Position">Position</a> on screen where to draw the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><span class="parametername">color</span></td>
+        <td><p>Set the <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Color">Color</a> used to draw the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>Set the rotation to draw the sprite, measured in degrees, see also <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Rotation">Rotation</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">centered</span></td>
+        <td><p>Position the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> based on its center instead of top left corner, see also <a class="xref" href="GTA.UI.Sprite.html#GTA_UI_Sprite_Centered">Centered</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Centered.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Centered%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L199">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Centered_" data-uid="GTA.UI.Sprite.Centered*"></a>
+  <h4 id="GTA_UI_Sprite_Centered" data-uid="GTA.UI.Sprite.Centered">Centered</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> should be positioned based on its center or top left corner</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Centered { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if centered; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Color.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Color%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L153">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Color_" data-uid="GTA.UI.Sprite.Color*"></a>
+  <h4 id="GTA_UI_Sprite_Color" data-uid="GTA.UI.Sprite.Color">Color</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the color of this <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color Color { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.color">Color</a></td>
+        <td><p>The color.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Enabled.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Enabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L143">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Enabled_" data-uid="GTA.UI.Sprite.Enabled*"></a>
+  <h4 id="GTA_UI_Sprite_Enabled" data-uid="GTA.UI.Sprite.Enabled">Enabled</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value indicating whether this <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> will be drawn.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Enabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><p><span class="xref">true</span> if enabled; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Position.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Position%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L166">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Position_" data-uid="GTA.UI.Sprite.Position*"></a>
+  <h4 id="GTA_UI_Sprite_Position" data-uid="GTA.UI.Sprite.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the position of this <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public PointF Position { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.pointf">PointF</a></td>
+        <td><p>The position scaled on a 1280*720 pixel base.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GTA_UI_Sprite_Position_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If ScaledDraw is called, the position will be scaled by the width returned in <a class="xref" href="GTA.UI.Screen.html#GTA_UI_Screen_ScaledWidth">ScaledWidth</a>.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Rotation.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Rotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L189">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Rotation_" data-uid="GTA.UI.Sprite.Rotation*"></a>
+  <h4 id="GTA_UI_Sprite_Rotation" data-uid="GTA.UI.Sprite.Rotation">Rotation</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the rotation to draw thie <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Rotation { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><p>The rotation measured in degrees, clockwise increasing, 0.0 at vertical</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Size.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Size%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L179">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Size_" data-uid="GTA.UI.Sprite.Size*"></a>
+  <h4 id="GTA_UI_Sprite_Size" data-uid="GTA.UI.Sprite.Size">Size</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the size to draw the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SizeF Size { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></td>
+        <td><p>The size on a 1280*720 pixel base</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="GTA_UI_Sprite_Size_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If ScaledDraw is called, the size will be scaled by the width returned in <a class="xref" href="GTA.UI.Screen.html#GTA_UI_Screen_ScaledWidth">ScaledWidth</a>.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Dispose.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L103">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Dispose_" data-uid="GTA.UI.Sprite.Dispose*"></a>
+  <h4 id="GTA_UI_Sprite_Dispose" data-uid="GTA.UI.Sprite.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Dispose_System_Boolean_.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Dispose(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L108">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Dispose_" data-uid="GTA.UI.Sprite.Dispose*"></a>
+  <h4 id="GTA_UI_Sprite_Dispose_System_Boolean_" data-uid="GTA.UI.Sprite.Dispose(System.Boolean)">Dispose(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Dispose(bool disposing)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">disposing</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Draw.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Draw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L207">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Draw_" data-uid="GTA.UI.Sprite.Draw*"></a>
+  <h4 id="GTA_UI_Sprite_Draw" data-uid="GTA.UI.Sprite.Draw">Draw()</h4>
+  <div class="markdown level1 summary"><p>Draws this <a class="xref" href="GTA.UI.Sprite.html">Sprite</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Draw()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_Draw_System_Drawing_SizeF_.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.Draw(System.Drawing.SizeF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L215">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_Draw_" data-uid="GTA.UI.Sprite.Draw*"></a>
+  <h4 id="GTA_UI_Sprite_Draw_System_Drawing_SizeF_" data-uid="GTA.UI.Sprite.Draw(System.Drawing.SizeF)">Draw(SizeF)</h4>
+  <div class="markdown level1 summary"><p>Draws the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> at the specified offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Draw(SizeF offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_ScaledDraw.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.ScaledDraw%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L223">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_ScaledDraw_" data-uid="GTA.UI.Sprite.ScaledDraw*"></a>
+  <h4 id="GTA_UI_Sprite_ScaledDraw" data-uid="GTA.UI.Sprite.ScaledDraw">ScaledDraw()</h4>
+  <div class="markdown level1 summary"><p>Draws this <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> using the width returned in <a class="xref" href="GTA.UI.Screen.html#GTA_UI_Screen_ScaledWidth">ScaledWidth</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ScaledDraw()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite_ScaledDraw_System_Drawing_SizeF_.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite.ScaledDraw(System.Drawing.SizeF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L231">View Source</a>
+  </span>
+  <a id="GTA_UI_Sprite_ScaledDraw_" data-uid="GTA.UI.Sprite.ScaledDraw*"></a>
+  <h4 id="GTA_UI_Sprite_ScaledDraw_System_Drawing_SizeF_" data-uid="GTA.UI.Sprite.ScaledDraw(System.Drawing.SizeF)">ScaledDraw(SizeF)</h4>
+  <div class="markdown level1 summary"><p>Draws the <a class="xref" href="GTA.UI.Sprite.html">Sprite</a> at the specified offset using the width returned in <a class="xref" href="GTA.UI.Screen.html#GTA_UI_Screen_ScaledWidth">ScaledWidth</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ScaledDraw(SizeF offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.drawing.sizef">SizeF</a></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="GTA.UI.ISpriteElement.html">ISpriteElement</a>
+  </div>
+  <div>
+      <a class="xref" href="GTA.UI.IElement.html">IElement</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RAGECOOP/scripthookvdotnet/new/main/apiSpec/new?filename=GTA_UI_Sprite.md&amp;value=---%0Auid%3A%20GTA.UI.Sprite%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/RAGECOOP/scripthookvdotnet/blob/main/source/scripting_v3/GTA.UI/Sprite.cs/#L18" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+- name: Getting started
+  href: index.md
+- name: About
+  href: README.md
+- name: API Documentation
+  href: API/RageCoop.Client.Scripting.html
+- name: SHVDN Documentation
+  href: SHVDN/GTA.html
