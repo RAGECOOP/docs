@@ -3,9 +3,9 @@
     {
       "src": [
         {
-          "src": "../RageCoop-V",
+          "src": "../RAGECOOP-V",
           "files": [ "*.sln", "**/*.csproj" ],
-          "exclude": [ "**/bin/**", "**/obj/**" ],
+          "exclude": [ "**/bin/**", "**/obj/**" ]
         }
       ],
       "dest": "obj/api"
