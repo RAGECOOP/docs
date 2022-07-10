@@ -73,7 +73,7 @@
 <h1 id="getting-started">Getting started</h1>
 
 <h2 id="resources-and-scripts">Resources and Scripts</h2>
-<p>A <strong>Script</strong> stands for class that inherits from RageCoop's script class ( <a href="api/RageCoop.Server.Scripting.ServerScript.html">ServerScript</a> and <a href="api/RageCoop.Client.Scripting.ClientScript.html">ClientScript</a> ) and will be loaded at runtime, one assembly can have multiple scripts in it.</p>
+<p>A <strong>Script</strong> stands for class that inherits from RageCoop's script class ( <a href="API/RageCoop.Server.Scripting.ServerScript.html">ServerScript</a> and <a href="API/RageCoop.Client.Scripting.ClientScript.html">ClientScript</a> ) and will be loaded at runtime, one assembly can have multiple scripts in it.</p>
 <p>A <strong>Resource</strong> consists of one or more assemblies and other files. Server-side resource will be loaded at startup and is isolated from other resources, while client-side resource will be sent to each client and loaded after they connected to the server. A <strong>Resource</strong> can either be in a folder or packed inside a zip archive.</p>
 <h2 id="directory-structure">Directory structure</h2>
 <p>Below is the server's directory structure</p>
@@ -94,7 +94,7 @@
     └───Temp
 </code></pre>
 <h3 id="settingsxml">Settings.xml</h3>
-<p>This file will be generated first time you started the server, you can then change the server's configuration option by editing it, refer to <a href="api/RageCoop.Server.ServerSettings.html">ServerSettings</a> for detailed description.</p>
+<p>This file will be generated first time you started the server, you can then change the server's configuration option by editing it, refer to <a href="API/RageCoop.Server.ServerSettings.html">ServerSettings</a> for detailed description.</p>
 <h2 id="server-resource">Server Resource</h2>
 <ol>
 <li>Create a C# class library project targeting .NET 6.0.</li>
@@ -109,7 +109,7 @@ using RageCoop.Core;
 
 </code></pre>
 </li>
-<li>Inherit from <a href="api/RageCoop.Server.Scripting.ServerScript.html">ServerScript</a>.</li>
+<li>Inherit from <a href="API/RageCoop.Server.Scripting.ServerScript.html">ServerScript</a>.</li>
 <li>Implement <code>OnStart()</code> and <code>OnStop()</code>, your cs file should look like this:
 <pre><code>using RageCoop.Server.Scripting;
 
@@ -129,7 +129,7 @@ namespace NiceGuy.MyFirstResource
 }
 </code></pre>
 </li>
-<li>Now you can have some fun by using the <a href="api/RageCoop.Server.Scripting.API.html">API</a> instance, please refer to the <a href="https://github.com/RAGECOOP/GTAV-RESOURCES">GitHub repo</a> for more examples.</li>
+<li>Now you can have some fun by using the <a href="API/RageCoop.Server.Scripting.API.html">API</a> instance, please refer to the <a href="https://github.com/RAGECOOP/GTAV-RESOURCES">GitHub repo</a> for more examples.</li>
 <li>For convenience, you can create a symlink in <code>ServerRoot/Resources/Server/NiceGuy.MyFirstResource</code> targeting your output folder:
 <pre><code>mklink /d ServerRoot/Resources/Server/NiceGuy.MyFirstResource C:/MyRepos/NiceGuy.MyFirstResource/bin/Debug
 </code></pre>
@@ -149,7 +149,7 @@ using RageCoop.Core;
 
 </code></pre>
 </li>
-<li>Inherit from <a href="api/RageCoop.Client.Scripting.ClientScript.html">ClientScript</a>.</li>
+<li>Inherit from <a href="API/RageCoop.Client.Scripting.ClientScript.html">ClientScript</a>.</li>
 <li>Implement <code>OnStart()</code> and <code>OnStop()</code>, your cs file should look like this:
 <pre><code>using RageCoop.Server.Scripting;
 

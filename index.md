@@ -3,7 +3,7 @@
 
 ## Resources and Scripts
 
-A **Script** stands for class that inherits from RageCoop's script class ( [ServerScript](api/RageCoop.Server.Scripting.ServerScript.html) and [ClientScript](api/RageCoop.Client.Scripting.ClientScript.html) ) and will be loaded at runtime, one assembly can have multiple scripts in it.
+A **Script** stands for class that inherits from RageCoop's script class ( [ServerScript](API/RageCoop.Server.Scripting.ServerScript.html) and [ClientScript](API/RageCoop.Client.Scripting.ClientScript.html) ) and will be loaded at runtime, one assembly can have multiple scripts in it.
 
 A **Resource** consists of one or more assemblies and other files. Server-side resource will be loaded at startup and is isolated from other resources, while client-side resource will be sent to each client and loaded after they connected to the server. A **Resource** can either be in a folder or packed inside a zip archive.
 
@@ -30,7 +30,7 @@ ServerRoot
 ```
 ### Settings.xml 
 
-This file will be generated first time you started the server, you can then change the server's configuration option by editing it, refer to [ServerSettings](api/RageCoop.Server.ServerSettings.html) for detailed description. 
+This file will be generated first time you started the server, you can then change the server's configuration option by editing it, refer to [ServerSettings](API/RageCoop.Server.ServerSettings.html) for detailed description. 
 
 ## Server Resource
 
@@ -46,7 +46,7 @@ This file will be generated first time you started the server, you can then chan
     using RageCoop.Core;
     
     ```
-4. Inherit from [ServerScript](api/RageCoop.Server.Scripting.ServerScript.html).
+4. Inherit from [ServerScript](API/RageCoop.Server.Scripting.ServerScript.html).
 5. Implement `OnStart()` and `OnStop()`, your cs file should look like this:
     ```
     using RageCoop.Server.Scripting;
@@ -66,7 +66,7 @@ This file will be generated first time you started the server, you can then chan
         }
     }
     ```
-6. Now you can have some fun by using the [API](api/RageCoop.Server.Scripting.API.html) instance, please refer to the [GitHub repo](https://github.com/RAGECOOP/GTAV-RESOURCES) for more examples.
+6. Now you can have some fun by using the [API](API/RageCoop.Server.Scripting.API.html) instance, please refer to the [GitHub repo](https://github.com/RAGECOOP/GTAV-RESOURCES) for more examples.
 7. For convenience, you can create a symlink in `ServerRoot/Resources/Server/NiceGuy.MyFirstResource` targeting your output folder:
     ```
     mklink /d ServerRoot/Resources/Server/NiceGuy.MyFirstResource C:/MyRepos/NiceGuy.MyFirstResource/bin/Debug
@@ -87,7 +87,7 @@ This file will be generated first time you started the server, you can then chan
     using RageCoop.Core;
     
     ```
-4. Inherit from [ClientScript](api/RageCoop.Client.Scripting.ClientScript.html).
+4. Inherit from [ClientScript](API/RageCoop.Client.Scripting.ClientScript.html).
 5. Implement `OnStart()` and `OnStop()`, your cs file should look like this:
     ```
     using RageCoop.Server.Scripting;
