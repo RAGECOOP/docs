@@ -78,7 +78,6 @@
 <a href="https://github.com/RAGECOOP/RAGECOOP-V/issues"><img src="https://img.shields.io/github/issues/RAGECOOP/RAGECOOP-V.svg?style=for-the-badge" alt="Issues"></a></p>
 <h1 id="-thats-it">🧠 That's it</h1>
 <p>RAGECOOP is a multiplayer mod to play story mode or some mods made for RAGECOOP or just drive around with your buddy.</p>
-<p><em>Old name: GTACOOP:R</em></p>
 <h1 id="-requirements">📋 Requirements</h1>
 <ul>
 <li>Visual Studio 2022</li>
@@ -108,7 +107,7 @@
 <li>Simple ragdoll sync</li>
 <li>Smoother vehicle/ped movement.</li>
 <li>Ownership based sync logic, carjacking is now working (sort of).</li>
-<li>Introduced SyncEvents.</li>
+<li>Latency compensation, vehicle movement should look identical from both sides even with high ping (300+ ms)</li>
 <li>Code refactoring and namespace cleanup</li>
 <li>Synchronized vehicle doors, brake and throttle.</li>
 <li>Weaponized vehicle sync(WIP).</li>
@@ -119,7 +118,6 @@
 <li>Weapon sounds are missing.</li>
 <li>Cover sync is still buggy.</li>
 <li>Framerate drop with high number of synchronized entities.</li>
-<li>Scripting API is screwed.(will be rewritten in the future)</li>
 </ol>
 <h2 id="installation">Installation</h2>
 <p>Refer to the <a href="https://github.com/RAGECOOP/RAGECOOP-V/wiki">wiki</a></p>
@@ -159,6 +157,9 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/RAGECOOP/RAGECOOP-V/blob/main/README.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
