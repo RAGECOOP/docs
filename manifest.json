@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.API.html",
-          "hash": "+ZyX05EkXrvK3LjVTIJySfh+K1sKlXXn6a/8pgjS1Lw="
+          "hash": "5QgKZVmlfu9jNRu+UdVwLezxdHYLWJIIhpOsvmxrCu4="
         }
       },
       "is_incremental": false,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ChatEventArgs.html",
-          "hash": "D5gh7WFB2/Y6BKW5/EHunYWZAKLHJp+UIQoaN9YMDgo="
+          "hash": "wN/voIVes2D3iaNA4nGs3ujloh3DmR+/osGQxHdxg5k="
         }
       },
       "is_incremental": false,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.CustomEventReceivedArgs.html",
-          "hash": "KmabESZFrQmhpkrMWZp2xcjCGaMrHJ7ivI66C/9GZXM="
+          "hash": "esm06dfFeD0z4ZZUlcNgwLHkE0DA0Pl305kHs4i7ZOs="
         }
       },
       "is_incremental": false,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.OnCommandEventArgs.html",
-          "hash": "YE1zswM2sL2Ch1M6Z3QdTnBfxSxW4jJjM3/W/7y+bdU="
+          "hash": "O39ZyP5S0KYWjOcuSXM03EEWP45RwfD2cRia1eoCoVs="
         }
       },
       "is_incremental": false,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerResource.html",
-          "hash": "RibCmwAVcUfZJEGmbIDfCTcAi1Lz3/ftHMojMMwK1CM="
+          "hash": "yL8oYBKonJ9ytIapn7rbUckIvM7h3leaTYAkIOVXRyY="
         }
       },
       "is_incremental": false,
@@ -3908,13 +3908,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 1
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 318,
-          "skipped_file_count": 287
+          "skipped_file_count": 308
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
