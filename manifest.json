@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.API.html",
-          "hash": "5QgKZVmlfu9jNRu+UdVwLezxdHYLWJIIhpOsvmxrCu4="
+          "hash": "XDsUSU4yARJml1R9ESH02Dw/0l4TGgcHHkPH41lt+Jc="
         }
       },
       "is_incremental": false,
@@ -3914,7 +3914,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 318,
-          "skipped_file_count": 318
+          "skipped_file_count": 315
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

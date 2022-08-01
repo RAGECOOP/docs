@@ -287,20 +287,19 @@ Accessing from <a class="xref" href="RageCoop.Server.Scripting.ServerScript.html
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/RAGECOOP/RAGECOOP-V/new/main/apiSpec/new?filename=RageCoop_Server_Scripting_API_FindScript__1_System_String_.md&amp;value=---%0Auid%3A%20RageCoop.Server.Scripting.API.FindScript%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/RAGECOOP/RAGECOOP-V/new/main/apiSpec/new?filename=RageCoop_Server_Scripting_API_FindScript_System_String_System_String_.md&amp;value=---%0Auid%3A%20RageCoop.Server.Scripting.API.FindScript(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/RAGECOOP/RAGECOOP-V/blob/main/RageCoop.Server/Scripting/API.cs/#L386">View Source</a>
+    <a href="https://github.com/RAGECOOP/RAGECOOP-V/blob/main/RageCoop.Server/Scripting/API.cs/#L388">View Source</a>
   </span>
   <a id="RageCoop_Server_Scripting_API_FindScript_" data-uid="RageCoop.Server.Scripting.API.FindScript*"></a>
-  <h4 id="RageCoop_Server_Scripting_API_FindScript__1_System_String_" data-uid="RageCoop.Server.Scripting.API.FindScript``1(System.String)">FindScript&lt;T&gt;(String)</h4>
+  <h4 id="RageCoop_Server_Scripting_API_FindScript_System_String_System_String_" data-uid="RageCoop.Server.Scripting.API.FindScript(System.String,System.String)">FindScript(String, String)</h4>
   <div class="markdown level1 summary"><p>Find a script matching the specified type</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public dynamic FindScript&lt;T&gt;(string resourceName = null)
-    where T : ServerScript</code></pre>
+    <pre><code class="lang-csharp hljs">public dynamic FindScript(string scriptFullName, string resourceName = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -312,6 +311,12 @@ Accessing from <a class="xref" href="RageCoop.Server.Scripting.ServerScript.html
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">scriptFullName</span></td>
+        <td><p>The full name of the script's type, e.g. RageCoop.Resources.Discord.Main</p>
+</td>
+      </tr>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
         <td><span class="parametername">resourceName</span></td>
@@ -331,26 +336,15 @@ Accessing from <a class="xref" href="RageCoop.Server.Scripting.ServerScript.html
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>Type of the script to search for</p>
+        <td><p>A <span class="xref">langword_csharp_dynamic</span> object reprensenting the script, or <span class="xref">null</span> if not found.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h5 id="RageCoop_Server_Scripting_API_FindScript_System_String_System_String__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Explicitly casting the return value to orginal type will case a exception to be thrown due to the dependency isolation mechanism in resource system.
+You shouldn't reference the target resource assemblies either, since it causes the referenced assembly to be loaded and started in your resource.</p>
+</div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/RAGECOOP/RAGECOOP-V/new/main/apiSpec/new?filename=RageCoop_Server_Scripting_API_GetAllClients.md&amp;value=---%0Auid%3A%20RageCoop.Server.Scripting.API.GetAllClients%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
