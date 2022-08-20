@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.NativeCaller.html",
-          "hash": "Hkyo9cSDNWtOXE53j8cEgVtixZBw4Aruz3aFbLsrMSo="
+          "hash": "1C/vSyWW5oqvpORBYdvEyMvY3hfpoOltsQ7hcHUvfzE="
         }
       },
       "is_incremental": false,
@@ -3944,13 +3944,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 1
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 321,
-          "skipped_file_count": 274
+          "skipped_file_count": 304
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
