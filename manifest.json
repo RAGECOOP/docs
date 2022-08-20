@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "README.html",
-          "hash": "oImwjmccgHNrqydHCZeN5NV6wkrioBjMyfldoFgBgiI="
+          "hash": "fDuWfjn9//9BxC4ke/N0HGBU3WbmzVg+f8/Paflv++Q="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,43 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.HeadBlendData.html",
-          "hash": "Iui84csRU2CVYhsHxWMZ5bUDzuG0TOEhiGQm3Az4aB4="
+          "hash": "cIpKXhD76ZSgxa17aHqUWNQkJNzb3me0v/RbD16CzE0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RageCoop.Client.Installer.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/RageCoop.Client.Installer.App.html",
+          "hash": "nrbqk+l7RZqjTuTxrhMDyq0a3plOHSju+y0vnbo7awU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RageCoop.Client.Installer.MainWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/RageCoop.Client.Installer.MainWindow.html",
+          "hash": "CzXuYtUZGRiRAUQv/w1R8KnozTBdoUNPhScqZ+FAYP4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/RageCoop.Client.Installer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "API/RageCoop.Client.Installer.html",
+          "hash": "veJKLJ7QgJI3Dp+Xn8kz8u2DozGAeAlPYYSl62DqeJo="
         }
       },
       "is_incremental": false,
@@ -57,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.NativeCaller.html",
-          "hash": "250s7Rx6ZhuoHV9xawJ+m8ha1T8LUjgxQfyayL3ZTM4="
+          "hash": "Hkyo9cSDNWtOXE53j8cEgVtixZBw4Aruz3aFbLsrMSo="
         }
       },
       "is_incremental": false,
@@ -69,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.NativeVector3.html",
-          "hash": "MRGTmt1iVculXK3/QXQoQr74tr8EWR2AIMUEbY7BR5k="
+          "hash": "Eu/lexmOXma3Hs06SExN4tckvE8SHXub8+SJhbuGfas="
         }
       },
       "is_incremental": false,
@@ -81,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Scripting.API.Config.html",
-          "hash": "Ft6Itre7Z+fSmBNc50xLeOWeysDRnUtuqcxIt1pABlA="
+          "hash": "8lFPa+E7R5pmyXbOun1BLk5LrxchEEnEHS3KU/kmjKc="
         }
       },
       "is_incremental": false,
@@ -93,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Scripting.API.Events.CustomEvent.html",
-          "hash": "TA35lshg4CoyFNRPupjsfzIEM3Bq+dhqtQx1qqEa9N4="
+          "hash": "7KUvg+50WYOIxZHldiyPSkGRxqNu+R/+Vdo3PQudsRQ="
         }
       },
       "is_incremental": false,
@@ -105,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Scripting.API.Events.EmptyEvent.html",
-          "hash": "oh/Jyc7bQAOlrS5eTvz+iW9/oegwTXx+uvhpVOTSmmY="
+          "hash": "WPLB0XVPhZVV2j3AsHMJWheqQ5iJoYsBFno8b+DBfaA="
         }
       },
       "is_incremental": false,
@@ -117,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Scripting.API.Events.html",
-          "hash": "/4F1UjomSftZhhTFQO6uMS1JDKVSdmCe64fPlNZUBm0="
+          "hash": "5iK6c/fwb+SmbtbbvO341BBstetBhtJS9iT1a7soACg="
         }
       },
       "is_incremental": false,
@@ -129,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Scripting.API.html",
-          "hash": "REj7L5+RbWrFZiwl+Mx3NxtupDgA66ZdLLf2ym5aau0="
+          "hash": "zQW/FcPfsP5QgYC8mY5elTl9Ad/LJ5b4R2QyI/DzuSY="
         }
       },
       "is_incremental": false,
@@ -141,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Scripting.ClientResource.html",
-          "hash": "UtgXyVODJiMlbHsfo6rYvyjp1s5kdvBBZHnYc+rYzUs="
+          "hash": "zn77e5BcBSh5r7INeNxPJ/CM9YHckdBjgTpKxXUZF3E="
         }
       },
       "is_incremental": false,
@@ -153,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Scripting.ClientScript.html",
-          "hash": "LOTbTz/1sNtaqPToDorfrgZKbSinoQK3QsrXpRxyOLY="
+          "hash": "rz/Om1sIwYJf2KL09avBWxrbRz7WEYs5tBWvDfuV7jY="
         }
       },
       "is_incremental": false,
@@ -165,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Scripting.CustomEventReceivedArgs.html",
-          "hash": "P1Rtm7lB1UZ2I5pbQrqB+9mNoLQlCjCwS19GhDucLL4="
+          "hash": "pF96N5zynDc0gW+lndOoa7WJpl6V81hxrDV3CxY1Oco="
         }
       },
       "is_incremental": false,
@@ -189,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.Settings.html",
-          "hash": "lW6ox9fdm5AyR17Wei07Hvtia2patt1PDKkZhOriZB0="
+          "hash": "nFaTm4a4tcT2kC5HLKylyVoe6LWT9irtb1jMUuv5k9Y="
         }
       },
       "is_incremental": false,
@@ -201,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.SyncedEntity.html",
-          "hash": "gEkXJLHKRJsiqUF9HUiQGbCQ2wrcz82HbDs1cnUHUWc="
+          "hash": "+ybCIa7g4BTXFg4NQFOHgyCM432JEoRKsPq9JXMJXIc="
         }
       },
       "is_incremental": false,
@@ -213,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.SyncedPed.html",
-          "hash": "e7mWDy9jBBRmxzJWeQV3yxYx4t6rkdDxT380YqXYY3k="
+          "hash": "1l3HsPHUuVU9WoW/KFxFg5JKw74Ri/pl//L2/WdksxA="
         }
       },
       "is_incremental": false,
@@ -225,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.SyncedProp.html",
-          "hash": "yC2Z2fO7dZBey00dQXfjgNpx5hCT6c2QAMt4jL0eSkc="
+          "hash": "8xgyrqWU5gWMTT7mCgR9AI8f3DV7xeSJb71B7Bbvtvo="
         }
       },
       "is_incremental": false,
@@ -237,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.SyncedVehicle.html",
-          "hash": "xEJqk6zblQscYM5Nk9efI66b8OupehMCggm3YW2sBnk="
+          "hash": "tOy2OuRAnlO/qVcXxFXCyTikqnIQN3WYdH6g92b5+8E="
         }
       },
       "is_incremental": false,
@@ -249,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Client.WorldThread.html",
-          "hash": "/dgPGtncZnch+osMsQrbtxAEFb+CEHGCPp+WDniXI/I="
+          "hash": "HzJ+EMiz9pFCefqK2BtdKqiT5lteLPbtsVbBTcUcUS8="
         }
       },
       "is_incremental": false,
@@ -273,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Core.Logger.html",
-          "hash": "9n5oylpWKjv0eidAiwph6bep9Cu+jUYUzfTltH7fj38="
+          "hash": "YanbXGDHE1goamhsD7R8Bletk37ezNJXNCtNdZ72NnI="
         }
       },
       "is_incremental": false,
@@ -285,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Core.PublicExtensions.html",
-          "hash": "Ytc2Mj1Ts2X6k8chJx4jqSN3AzjdFdEu/9OC1n3Uv7w="
+          "hash": "cg1/OdIxdjSpiDzXQa+xozqG2EryE8Np7BbvpzaA0No="
         }
       },
       "is_incremental": false,
@@ -297,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Core.Scripting.CustomEvents.html",
-          "hash": "K6tAfBMSQ/EU/YfLPt1Xrxf925t3zDy+qf6/SrbD75s="
+          "hash": "B/le+HyihxYQ/gh1yUDnwXLySP8Mx85qjVQx9PFZIuY="
         }
       },
       "is_incremental": false,
@@ -309,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Core.Scripting.ResourceFile.html",
-          "hash": "F+rZt9TaXkdYk0Dc2jMOEKOJi25UmCt6lLOCZ0+VQcE="
+          "hash": "qPhFoPWGddOviLptT6PyTnbi6hWuBKg7ClU1J97JMTo="
         }
       },
       "is_incremental": false,
@@ -333,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Core.Worker.html",
-          "hash": "rNfLVUCd6OqrsL5Z1WBjHlrGOHv+IPU1BBtxStqrNiY="
+          "hash": "3zwJicISQKV/avJoUu4cHTfRJ0wWya1nKDdogLoQDyQ="
         }
       },
       "is_incremental": false,
@@ -357,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Client.html",
-          "hash": "F6cBnk0PB6OE5fIEfgVnC1upvgofAhePG8GN5s/0uNg="
+          "hash": "TeGpuZQT9X41YNlVTu6HtFjCv3u/lx0YlvU7IRKrWV4="
         }
       },
       "is_incremental": false,
@@ -369,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.API.html",
-          "hash": "XDsUSU4yARJml1R9ESH02Dw/0l4TGgcHHkPH41lt+Jc="
+          "hash": "2OuKOqaeaC4QVE5wfbx1A794bX0TBgyHIXDCWo1gQcg="
         }
       },
       "is_incremental": false,
@@ -381,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ChatEventArgs.html",
-          "hash": "wN/voIVes2D3iaNA4nGs3ujloh3DmR+/osGQxHdxg5k="
+          "hash": "lyT3GUdSIOPG0TQtBWKNiwz9rWIzj7mcOU0Cr/Xxey0="
         }
       },
       "is_incremental": false,
@@ -393,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.Command.html",
-          "hash": "W4HNhN7/o2PJ5yeoNYLdkFQcXAj22glL490ihGDyaec="
+          "hash": "u3YhfHBTha/X6o65J5Ksk3N9itbzJ4XiCRshECKgJng="
         }
       },
       "is_incremental": false,
@@ -405,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.CommandContext.html",
-          "hash": "BBA1wD98/5zRaKuXB+d3cviWbBKBWY1dnp2GwT/Cruc="
+          "hash": "6RgHXclg5z1njsNwOr7UdDsHL4aVmlLapAoP6owNJtA="
         }
       },
       "is_incremental": false,
@@ -417,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.CustomEventReceivedArgs.html",
-          "hash": "esm06dfFeD0z4ZZUlcNgwLHkE0DA0Pl305kHs4i7ZOs="
+          "hash": "SrqNxcu5oLc4DhGnonOYcUyzm9ajvYV8zc57WBC8E7c="
         }
       },
       "is_incremental": false,
@@ -429,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.HandshakeEventArgs.html",
-          "hash": "NPkQp9U9FEmk1isfeXXoJpD7RVF7En3jW70sQuGebVk="
+          "hash": "YjeHlRPL7rzvY6CKhtvx2eiChvFGLhVWoJfdS4kaqIg="
         }
       },
       "is_incremental": false,
@@ -441,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.OnCommandEventArgs.html",
-          "hash": "O39ZyP5S0KYWjOcuSXM03EEWP45RwfD2cRia1eoCoVs="
+          "hash": "0ThAVZTXZcOdbvmOjiIFdbZoQEHGkdZfCvIqzdjMU24="
         }
       },
       "is_incremental": false,
@@ -453,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.PedBlip.html",
-          "hash": "1QDboHSKasq1tPVWz4S2WAwBP1R4xu3Y8rqpHQP2ov0="
+          "hash": "9h8+1qzYW/gR40Q61Uk4kS981ayYYuYX5pXgF2wRVGk="
         }
       },
       "is_incremental": false,
@@ -465,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerBlip.html",
-          "hash": "J+FUyi6Msa3ZmQy3M2kyYl+2s10GR5TuRycORRxwd2o="
+          "hash": "I3FPwdjJICHE5AFc5U6vZOKY6CiZs6GQY8D8Mz9bXKo="
         }
       },
       "is_incremental": false,
@@ -477,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerEntities.html",
-          "hash": "O/Y7ehv5AE3o32t013kJEZ/Dod2g26rlObOxbnQnzlg="
+          "hash": "xfzUOTctO+fjDYPEYgFXV1GKkvvm1S8hZTxHpKNU/PM="
         }
       },
       "is_incremental": false,
@@ -489,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerEvents.html",
-          "hash": "TqtBZTbS33vpXYFwZwotgoJQ6chAjhZgfLzsRmF1dwY="
+          "hash": "McBcrN54pUHpjR12BklFgPOqhS0UCxwUKsCuZrBsiKc="
         }
       },
       "is_incremental": false,
@@ -501,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerObject.html",
-          "hash": "AueLw8vWJJv017mEgeyQq1WDDHuPiKP83hVUE5VnU1A="
+          "hash": "q9OD7nzxwiNROdnyHoKF+u5M6TQ+5yv7w0X4/Q5H70E="
         }
       },
       "is_incremental": false,
@@ -513,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerPed.html",
-          "hash": "NWwuGVsx1VWfY6kdAeBofA+uJQCgLkoWCYAlcsFKFsE="
+          "hash": "XGhPtZfJouhuw9N/ivNTU5HRqQVG/7iqIzgwCpBPc78="
         }
       },
       "is_incremental": false,
@@ -525,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerProp.html",
-          "hash": "c3ctXENXJfknrSyHbtqYvdKoCl0fDFnphaxfiYW5uDE="
+          "hash": "Y4vDkzx1ZxtO0hUJ/qZMBYwTn1YZrHpKKRlZZJAm2Xk="
         }
       },
       "is_incremental": false,
@@ -537,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerResource.html",
-          "hash": "YJ3eIqmuJ0UIlyOUWXbSwRWw0Jq/hzNSUdJyZHSl1js="
+          "hash": "nf+7hj/3EjUaE6H5wdTdjq0oRxiic6hbeYLSVh5gBoE="
         }
       },
       "is_incremental": false,
@@ -549,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerScript.html",
-          "hash": "ohhH8Kwy/1gwN/ZNH3fmqwishAWxoKNYMNdlINxMvgM="
+          "hash": "H9d3xUfKwgzZudaqBxtuWefcO3jyYxUYIels9jz0hxs="
         }
       },
       "is_incremental": false,
@@ -561,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Scripting.ServerVehicle.html",
-          "hash": "TX5ApGDbpADH0Gm9k8hZJrO4z53hj3wR3FCH/sqzc0s="
+          "hash": "96XQytDQpzaYRDq1XBbEGzHrYeDI/uyTzzCnz7UMYWE="
         }
       },
       "is_incremental": false,
@@ -585,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.Server.html",
-          "hash": "X8bJYWF3hs4oMoEM6yoWjQ/EQNHfPrUtvH54yIYDJvQ="
+          "hash": "7M4r3j2A8RHaQDLSVrFpYBiXONV61/+Wj8rkEgxzX6k="
         }
       },
       "is_incremental": false,
@@ -593,11 +629,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/api/RageCoop.Server.ServerSettings.yml",
+      "source_relative_path": "obj/api/RageCoop.Server.Settings.yml",
       "output": {
         ".html": {
-          "relative_path": "API/RageCoop.Server.ServerSettings.html",
-          "hash": "XfsTp7lLPyvMp2iOk2SI/hzvrwVMvua9eZm6wAqVPC8="
+          "relative_path": "API/RageCoop.Server.Settings.html",
+          "hash": "DaSHLUi1LA+UuaqAOzgvw6yVNsUNbfXUVyaMTpPbSU8="
         }
       },
       "is_incremental": false,
@@ -609,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "API/RageCoop.Server.html",
-          "hash": "MZ7YCuI30sBSEUCJx6/GoXA3X03xxeDLESs8kElMJrU="
+          "hash": "qVbm3ydQxKGax57gOnVSxrGSUznS95gtniKcPG5aQV4="
         }
       },
       "is_incremental": false,
@@ -621,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "API/toc.html",
-          "hash": "I41ovEfSQDJD1FjBAI6Iz7kpw0TIk6RjGZcTKw4hhBk="
+          "hash": "R+rS0tAuqj2UO3aVR4RUFCPrS0if9zFcWC+aOwX44nk="
         }
       },
       "is_incremental": false,
@@ -3908,13 +3944,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 2
+          "skipped_file_count": 1
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 318,
-          "skipped_file_count": 315
+          "total_file_count": 321,
+          "skipped_file_count": 274
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

@@ -72,61 +72,64 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="-ragecoop">🌐 RAGECOOP</h1>
 
-<p><a href="https://github.com/RAGECOOP/RAGECOOP-V/graphs/contributors"><img src="https://img.shields.io/github/contributors/RAGECOOP/RAGECOOP-V.svg?style=for-the-badge" alt="Contributors"></a>
+<p><a href="https://github.com/RAGECOOP/RAGECOOP-V/releases"><img src="https://img.shields.io/github/downloads/RAGECOOP/RAGECOOP-V/total?style=for-the-badge" alt="Downloads"></a>
+<a href="https://github.com/RAGECOOP/RAGECOOP-V/graphs/contributors"><img src="https://img.shields.io/github/contributors/RAGECOOP/RAGECOOP-V.svg?style=for-the-badge" alt="Contributors"></a>
 <a href="https://github.com/RAGECOOP/RAGECOOP-V/network/members"><img src="https://img.shields.io/github/forks/RAGECOOP/RAGECOOP-V.svg?style=for-the-badge" alt="Forks"></a>
 <a href="https://github.com/RAGECOOP/RAGECOOP-V/stargazers"><img src="https://img.shields.io/github/stars/RAGECOOP/RAGECOOP-V.svg?style=for-the-badge" alt="Stargazers"></a>
 <a href="https://github.com/RAGECOOP/RAGECOOP-V/issues"><img src="https://img.shields.io/github/issues/RAGECOOP/RAGECOOP-V.svg?style=for-the-badge" alt="Issues"></a></p>
 <h1 id="-thats-it">🧠 That's it</h1>
-<p>RAGECOOP is a multiplayer mod to play story mode or some mods made for RAGECOOP or just drive around with your buddy.</p>
-<h1 id="-requirements">📋 Requirements</h1>
+<p>RAGECOOP brings multiplayer experience to the story mode, you can complete missions together with your friends, use mods without any restriction/getting banned, or just mess around with your fella!</p>
+<h1 id="-requirements">👁 Requirements</h1>
 <ul>
-<li>Visual Studio 2022</li>
-<li>.NET 6.0</li>
-<li>.NET Framework 4.8</li>
+<li>ScriptHookV</li>
+<li>ScriptHookVDotNet 3.5.1 or later</li>
 </ul>
-<h1 id="-libraries">📚 Libraries</h1>
+<h1 id="-building-the-project">📋 Building the project</h1>
+<p>You'll need:</p>
 <ul>
-<li><a href="https://github.com/crosire/scripthookvdotnet/releases/tag/v3.4.0">ScriptHookVDotNet3</a></li>
-<li><a href="https://github.com/justalemon/LemonUI/releases/tag/v1.6">LemonUI.SHVDN3</a></li>
-<li>Lidgren Network Custom (<em><strong>PRIVATE</strong></em>)</li>
+<li>.NET 6.0 SDK</li>
+<li>.NET Framework 4.8 SDK</li>
+</ul>
+<p>Recommended IDE:</p>
+<ul>
+<li>Visual Studio Code</li>
+<li>Visul Studio 2022</li>
+</ul>
+<p>Then run <code>dotnet build</code> in the solution directory, built binaries are in the <code>bin</code> folder</p>
+<h1 id="-third-party-libraries">📚 Third-party libraries</h1>
+<ul>
+<li><a href="https://github.com/crosire/scripthookvdotnet">ScriptHookVDotNet3</a></li>
+<li><a href="https://github.com/justalemon/LemonUI">LemonUI.SHVDN3</a></li>
+<li>Lidgren Network Custom</li>
 <li>
 <ul>
 <li>No new features (only improvements)</li>
 </ul>
 </li>
-<li><a href="https://www.nuget.org/packages/Newtonsoft.Json/13.0.1">Newtonsoft.Json</a></li>
+<li><a href="https://github.com/JamesNK/Newtonsoft.Json">Newtonsoft.Json</a></li>
 <li><a href="https://github.com/microsoft/ClearScript">ClearScript</a></li>
 <li><a href="https://github.com/icsharpcode/SharpZipLib">SharpZipLib</a></li>
 <li><a href="https://github.com/natemcmaster/DotNetCorePlugins">DotNetCorePlugins</a></li>
 </ul>
-<h1 id="features">Features</h1>
+<h1 id="-features">👋 Features</h1>
 <ol>
 <li>Synchronized bullets</li>
 <li>Synchronized vehicle/player/NPC</li>
 <li>Synchronized projectiles</li>
 <li>Simple ragdoll sync</li>
-<li>Smoother vehicle/ped movement.</li>
-<li>Ownership based sync logic, carjacking is now working (sort of).</li>
-<li>Latency compensation, vehicle movement should look identical from both sides even with high ping (300+ ms)</li>
-<li>Code refactoring and namespace cleanup</li>
-<li>Synchronized vehicle doors, brake and throttle.</li>
+<li>Decent compatibility with other mods, set up a private modded server to have some fun!</li>
 <li>Weaponized vehicle sync(WIP).</li>
-<li>Other improvements</li>
+<li>Optimization for high-Ping condition, play with friends around the world!</li>
+<li>Powerful scripting API and resource system, easily <a href="HTTPS://docs.ragecoop.online">add multiplayer functionality to your mod</a>.</li>
 </ol>
-<h1 id="known-issues">Known issues</h1>
-<ol>
-<li>Weapon sounds are missing.</li>
-<li>Cover sync is still buggy.</li>
-<li>Framerate drop with high number of synchronized entities.</li>
-</ol>
-<h2 id="installation">Installation</h2>
+<h1 id="-known-issues">⚠ Known issues</h1>
+<p>See <a href="https://github.com/RAGECOOP/RAGECOOP-V/issues/33">Bugs</a></p>
+<h1 id="-installation">🔫 Installation</h1>
 <p>Refer to the <a href="https://github.com/RAGECOOP/RAGECOOP-V/wiki">wiki</a></p>
-<h1 id="downloads">Downloads</h1>
+<h1 id="-downloads">🧨 Downloads</h1>
 <p>Download latest release <a href="https://github.com/RAGECOOP/RAGECOOP-V/releases/latest">here</a></p>
 <p>You can also download nightly builds <a href="https://github.com/RAGECOOP/RAGECOOP-V/releases/nightly">here</a>, which includes latest features and bug-fixes, but has not been thoroughly tested.</p>
 <p>Please note that this is incompatible with all previous versions of ragecoop, remove old files before installing.</p>
-<h1 id="support-us">Support us</h1>
-<p><a href="https://patreon.com/Sardelka"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3DSardelka%26type%3Dpatrons&style=for-the-badge"></a></p>
 <h1 id="-special-thanks-to">🦆 Special thanks to</h1>
 <ul>
 <li><a href="https://github.com/Makinolo">Makinolo</a>, <a href="https://github.com/oldnapalm">oldnapalm</a></li>
@@ -157,9 +160,6 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/RAGECOOP/RAGECOOP-V/blob/main/README.md/#L1" class="contribution-link">Improve this Doc</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
