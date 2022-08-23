@@ -18,12 +18,12 @@ ServerRoot
 │
 └───Resources
     └───Server
-    │   │   RageCoop.Resources.Management.zip
-    │   │   RageCoop.Resources.Race.zip
+    │   │   RageCoop.Resources.Management
+    │   │   RageCoop.Resources.Race
     │   │   
     │
     │───Client
-    │   │   RageCoop.Resources.Race.Client.zip
+    │   │   RageCoop.Resources.Race.Client
     │   │
     │
     └───Temp
@@ -67,7 +67,7 @@ This file will be generated first time you started the server, you can then chan
     }
     ```
 6. Now you can have some fun by using the [API](API/RageCoop.Server.Scripting.API.html) instance, please refer to the [GitHub repo](https://github.com/RAGECOOP/GTAV-RESOURCES) for more examples.
-7. For convenience, you can create a symlink in `ServerRoot/Resources/Server/NiceGuy.MyFirstResource` targeting your output folder:
+7. You can create a symlink in `ServerRoot/Resources/Server/NiceGuy.MyFirstResource` targeting your output folder:
     ```
     mklink /d ServerRoot/Resources/Server/NiceGuy.MyFirstResource C:/MyRepos/NiceGuy.MyFirstResource/bin/Debug
     ```
@@ -108,8 +108,13 @@ This file will be generated first time you started the server, you can then chan
     }
     ```
 6. Now you can use anything from SHVDN to control client behaviour by adding a reference to **ScriptHookVDotNet3.dll**
-7. For convenience, you can create a symlink in `ServerRoot/Resources/Client/NiceGuy.MyFirstResource` targeting your output folder:
+7. Oou can create a symlink in `ServerRoot/Resources/Client/NiceGuy.MyFirstResource` targeting your output folder:
     ```
     mklink /d ServerRoot/Resources/Client/NiceGuy.MyFirstClientResource C:/MyRepos/NiceGuy.MyFirstClientResource/bin/Debug
     ```
 8. That's it! When a client connects the resource will be sent and loaded at client side.
+
+# Building and publishing
+When you're done testing your resource, you can fork [our repo](https://github.com/RAGECOOP/GTAV-RESOURCES) and add your own resource to a `Resources/YourName/YourSolutionFolder`, then add a `ResourceManifest.json` file to the directory.
+There's [some example manifest](https://github.com/RAGECOOP/GTAV-RESOURCES/blob/main/Resources/RageCoop/RageCoop.Resources.Race/ResourceManifest.json) that you can take a look, make sure it's properly set-up otherwise the build will fail.
+When you're done, make a PR, your resource will be built and packed into a single file on our GitHub repo.
