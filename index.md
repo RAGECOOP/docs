@@ -5,7 +5,7 @@
 
 A **Script** stands for class that inherits from RageCoop's script class ( [ServerScript](API/RageCoop.Server.Scripting.ServerScript.html) and [ClientScript](API/RageCoop.Client.Scripting.ClientScript.html) ) and will be loaded at runtime, one assembly can have multiple scripts in it.
 
-A **Resource** consists of one or more assemblies and other files. Server-side resource will be loaded at startup and is isolated from other resources, while client-side resource will be sent to each client and loaded after they connected to the server. A **Resource** can either be in a folder or packed inside a zip archive.
+A **Resource** consists of one or more assemblies and other files. Server-side resource will be loaded at startup and is isolated from other resources, while client-side resource will be sent to each client and loaded after they connected to the server. A **Resource** can either be in a folder or packed inside a zip archive (*.res).
 
 
 ## Directory structure
